@@ -1,2 +1,6 @@
+data/raw/*.fb2
 venv/
-data/raw/
+data/processed/*.json
+data/processed/_manifest.json
+__pycache__/
+*.pyc
