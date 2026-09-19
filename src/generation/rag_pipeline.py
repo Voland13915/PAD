@@ -34,12 +34,14 @@ class RAGPipeline:
         reranker_model: str = "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
         retrieve_k: int = 20,
         filter_config: ft.FilterConfig | None = None,
+        temperature: float = 0.1,
     ):
         self.retriever = rt.Retriever(faiss_dir, strategy, embedding_model)
         self.use_reranker = use_reranker
         self.reranker = rr.Reranker(reranker_model) if use_reranker else None
         self.retrieve_k = retrieve_k
         self.llm_model = llm_model
+        self.temperature = temperature
 
         # score_field зависит от того, включён ли reranker: если да — фильтруем
         # по reranker_score (он есть только после rerank), иначе по обычному score.
@@ -58,7 +60,7 @@ class RAGPipeline:
 
         filtered = ft.apply_filters(candidates, self.filter_config)
 
-        result = gen.generate_answer(question, filtered, model=self.llm_model)
+        result = gen.generate_answer(question, filtered, model=self.llm_model, temperature=self.temperature)
         result["n_candidates_retrieved"] = len(candidates)
         result["n_chunks_used"] = len(filtered)
         return result
@@ -81,6 +83,7 @@ if __name__ == "__main__":
     parser.add_argument("--strategy", default="paragraph", choices=["fixed_size", "fixed_size_overlap", "paragraph"])
     parser.add_argument("--embedding-model", default="intfloat/multilingual-e5-base")
     parser.add_argument("--llm-model", default="qwen2.5")
+    parser.add_argument("--temperature", type=float, default=0.1)
     parser.add_argument("--use-reranker", action="store_true")
     parser.add_argument("--max-results", type=int, default=5)
     args = parser.parse_args()
@@ -99,6 +102,7 @@ if __name__ == "__main__":
         llm_model=args.llm_model,
         use_reranker=args.use_reranker,
         filter_config=filter_config,
+        temperature=args.temperature,
     )
 
     print("RAG-система готова. Введи вопрос (или 'exit' для выхода):\n")
