@@ -1,0 +1,1795 @@
+Microsoft Windows [Version 10.0.19045.6456]
+(c) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>pip install lxml
+"pip" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>python -m pip install lxml
+"python" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>py -m pip install lxml
+Collecting lxml
+  Downloading lxml-6.1.3-cp310-cp310-win_amd64.whl.metadata (3.4 kB)
+Downloading lxml-6.1.3-cp310-cp310-win_amd64.whl (4.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.0/4.0 MB 3.5 MB/s  0:00:01
+Installing collected packages: lxml
+Successfully installed lxml-6.1.3
+
+[notice] A new release of pip is available: 26.0.1 -> 26.2.1
+[notice] To update, run: C:\Program Files\Python310\python.exe -m pip install --upgrade pip
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>python -m pip install lxml
+"python" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>python grabber.py --raw-dir ../../data/raw --out-dir ../../data/processed
+"python" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>cd src\grabber
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\grabber>python grabber.py --raw-dir ../../data/raw --out-dir ../../data/processed
+"python" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\grabber>dir "C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts"
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 708E-79F8
+
+ Содержимое папки C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts
+
+18.09.2026  12:12    <DIR>          .
+18.09.2026  12:12    <DIR>          ..
+18.09.2026  12:10             2 184 activate
+18.09.2026  12:10             1 037 activate.bat
+18.09.2026  12:10             3 061 activate.fish
+18.09.2026  12:10             2 641 activate.nu
+18.09.2026  12:10             1 758 activate.ps1
+18.09.2026  12:10             1 169 activate_this.py
+18.09.2026  12:12           108 435 cffi-gen-src.exe
+18.09.2026  12:10               511 deactivate.bat
+18.09.2026  12:10               682 deactivate.nu
+18.09.2026  12:12            14 644 dumppdf.py
+18.09.2026  12:11           108 427 idna.exe
+18.09.2026  12:11           108 453 normalizer.exe
+18.09.2026  12:12            10 102 pdf2txt.py
+18.09.2026  12:12           108 433 pdfplumber.exe
+18.09.2026  12:10           108 441 pip-3.10.exe
+18.09.2026  12:10           108 441 pip.exe
+18.09.2026  12:10           108 441 pip3.10.exe
+18.09.2026  12:10           108 441 pip3.exe
+18.09.2026  12:10                24 pydoc.bat
+18.09.2026  12:12           108 449 pypdfium2.exe
+18.09.2026  12:10           268 568 python.exe
+18.09.2026  12:10           257 304 pythonw.exe
+18.09.2026  12:10           108 428 wheel-3.10.exe
+18.09.2026  12:10           108 428 wheel.exe
+18.09.2026  12:10           108 428 wheel3.10.exe
+18.09.2026  12:10           108 428 wheel3.exe
+18.09.2026  12:12    <DIR>          __pycache__
+              26 файлов      1 973 358 байт
+               3 папок  25 068 302 336 байт свободно
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\grabber>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" -m pip install lxml
+Requirement already satisfied: lxml in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (6.1.3)
+
+[notice] A new release of pip available: 22.3.1 -> 26.2.1
+[notice] To update, run: C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe -m pip install --upgrade pip
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\grabber>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" grabber.py --raw-dir ../../data/raw --out-dir .
+./../data/processed
+2026-09-18 12:13:41,562 [INFO] Обработано: Rouling_Garri-Potter-perevod-Rosmen-_1_Garri-Potter-i-filosofskiy-kamen.OasCVg.265595.fb2 -> book_01.json (17 глав, книга №1)
+2026-09-18 12:13:41,615 [INFO] Обработано: Rouling_Garri-Potter-perevod-Rosmen-_2_Garri-Potter-i-Taynaya-komnata.yG1f8Q.265596.fb2 -> book_02.json (18 глав, книга №2)
+2026-09-18 12:13:41,678 [INFO] Обработано: Rouling_Garri-Potter-perevod-Rosmen-_3_Garri-Potter-i-uznik-Azkabana.EhK9eA.265597.fb2 -> book_03.json (22 глав, книга №3)
+2026-09-18 12:13:41,789 [INFO] Обработано: Rouling_Garri-Potter-perevod-Rosmen-_4_Garri-Potter-i-Kubok-ognya.JjPbjQ.514009.fb2 -> book_04.json (37 глав, книга №4)
+2026-09-18 12:13:41,945 [INFO] Обработано: Rouling_Garri-Potter-perevod-Rosmen-_5_Garri-Potter-i-Orden-Feniksa.RK0Oow.557920.fb2 -> book_05.json (38 глав, книга №5)
+2026-09-18 12:13:42,048 [INFO] Обработано: Rouling_Garri-Potter-perevod-Rosmen-_6_Garri-Potter-i-Princ-polukrovka.a9iJ-g.558325.fb2 -> book_06.json (30 глав, книга №6)
+2026-09-18 12:13:42,165 [INFO] Обработано: Rouling_Garri-Potter-perevod-Rosmen-_7_Garri-Potter-i-Dary-Smerti.IsWuLg.659074.fb2 -> book_07.json (37 глав, книга №7)
+2026-09-18 12:13:42,167 [INFO] Готово. Обработано: 7, пропущено: 0, ошибок: 0
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\grabber>cd ..\..
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>cd
+C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git init
+Reinitialized existing Git repository in C:/Users/migov/OneDrive/Рабочий стол/PAD/lab1/.git/
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git remote add origin https://github.com/<твой_аккаунт>/<имя_репозитория>.git
+Не удается найти указанный файл.
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git remote add origin https://github.com/Voland13915/PAD.git
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git add .
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git commit -m "feat: add fb2 grabber and parser for Harry Potter books"
+[master 1729ede] feat: add fb2 grabber and parser for Harry Potter books
+ 9 files changed, 297 insertions(+), 192 deletions(-)
+ create mode 100644 .idea/vcs.xml
+ delete mode 100644 configs/sources.yaml
+ delete mode 100644 src/grabber/__init__.py
+ create mode 100644 src/grabber/fb2_parser.py
+ create mode 100644 src/grabber/grabber.py
+ delete mode 100644 src/grabber/pdf_grabber.py
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git branch -M main
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git push -u origin main
+Enumerating objects: 29, done.
+Counting objects: 100% (29/29), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (29/29), 10.43 KiB | 712.00 KiB/s, done.
+Total 29 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/Voland13915/PAD.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git log
+commit 1729edee03e727ca131428e47db0ea2fff1d0b19 (HEAD -> main, origin/main)
+Author: Daniil Migov <daniil.migov@isa.utm.md>
+Date:   Fri Sep 18 12:20:27 2026 +0300
+
+    feat: add fb2 grabber and parser for Harry Potter books
+
+commit dc9aaca221499f3984ce9fa978c819719c48d7f8
+Author: Daniil Migov <daniil.migov@isa.utm.md>
+Date:   Fri Sep 4 12:40:29 2026 +0300
+
+    feat: add project structure and pdf grabber skeleton
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" -m pip install transformers sentencepiece
+Collecting transformers
+  Downloading transformers-5.17.0-py3-none-any.whl (12.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 17.7 MB/s eta 0:00:00
+Collecting sentencepiece
+  Downloading sentencepiece-0.2.2-cp310-cp310-win_amd64.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 26.3 MB/s eta 0:00:00
+Collecting typer
+  Downloading typer-0.27.2-py3-none-any.whl (123 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 123.1/123.1 kB ? eta 0:00:00
+Collecting packaging>=20.0
+  Downloading packaging-26.3-py3-none-any.whl (129 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 130.0/130.0 kB 8.0 MB/s eta 0:00:00
+Collecting safetensors>=0.8.0
+  Downloading safetensors-0.8.0-cp310-abi3-win_amd64.whl (355 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 355.5/355.5 kB 23.0 MB/s eta 0:00:00
+Collecting regex>=2025.10.22
+  Downloading regex-2026.9.10-cp310-cp310-win_amd64.whl (278 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 278.3/278.3 kB 8.6 MB/s eta 0:00:00
+Collecting tqdm>=4.60
+  Downloading tqdm-4.70.1-py3-none-any.whl (80 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 80.2/80.2 kB 4.4 MB/s eta 0:00:00
+Collecting numpy>=1.17
+  Using cached numpy-2.2.6-cp310-cp310-win_amd64.whl (12.9 MB)
+Collecting huggingface-hub<2.0,>=1.5.0
+  Downloading huggingface_hub-1.32.0-py3-none-any.whl (842 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 842.9/842.9 kB 26.9 MB/s eta 0:00:00
+Requirement already satisfied: pyyaml>=5.1 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from transformers) (6.0.3)
+Collecting tokenizers<0.24.0,>=0.23.1
+  Downloading tokenizers-0.23.2-cp310-abi3-win_amd64.whl (2.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.9/2.9 MB 18.3 MB/s eta 0:00:00
+Collecting click<9.0.0,>=8.4.2
+  Downloading click-8.5.0-py3-none-any.whl (125 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 125.3/125.3 kB 7.2 MB/s eta 0:00:00
+Collecting hf-xet<2.0.0,>=1.5.2
+  Downloading hf_xet-1.6.0-cp38-abi3-win_amd64.whl (4.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.0/4.0 MB 17.1 MB/s eta 0:00:00
+Collecting httpx<1,>=0.23.0
+  Using cached httpx-0.28.1-py3-none-any.whl (73 kB)
+Requirement already satisfied: typing-extensions>=4.1.0 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from huggingface-hub<2.0,>=1.5.0->transformers) (4.16.0
+)
+Collecting tomli>=1.1.0
+  Using cached tomli-2.4.1-py3-none-any.whl (14 kB)
+Collecting filelock>=3.10.0
+  Downloading filelock-4.0.1-py3-none-any.whl (106 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 106.2/106.2 kB ? eta 0:00:00
+Collecting fsspec>=2023.5.0
+  Downloading fsspec-2026.9.0-py3-none-any.whl (221 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 221.7/221.7 kB 14.1 MB/s eta 0:00:00
+Collecting colorama
+  Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Collecting rich>=13.8.0
+  Using cached rich-15.0.0-py3-none-any.whl (310 kB)
+Collecting shellingham>=1.3.0
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Collecting annotated-doc>=0.0.2
+  Downloading annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
+Collecting anyio
+  Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 132.1/132.1 kB ? eta 0:00:00
+Requirement already satisfied: idna in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from httpx<1,>=0.23.0->huggingface-hub<2.0,>=1.5.0->transformers) (3.20)
+Collecting httpcore==1.*
+  Using cached httpcore-1.0.9-py3-none-any.whl (78 kB)
+Requirement already satisfied: certifi in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from httpx<1,>=0.23.0->huggingface-hub<2.0,>=1.5.0->transformers) (2026.
+7.22)
+Collecting h11>=0.16
+  Using cached h11-0.16.0-py3-none-any.whl (37 kB)
+Collecting pygments<3.0.0,>=2.13.0
+  Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 26.4 MB/s eta 0:00:00
+Collecting markdown-it-py>=2.2.0
+  Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 91.7/91.7 kB ? eta 0:00:00
+Collecting mdurl~=0.1
+  Using cached mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Collecting exceptiongroup>=1.0.2
+  Using cached exceptiongroup-1.3.1-py3-none-any.whl (16 kB)
+Installing collected packages: tomli, shellingham, sentencepiece, safetensors, regex, pygments, packaging, numpy, mdurl, hf-xet, h11, fsspec, filelock, exceptiongroup, colorama, click,
+ annotated-doc, tqdm, markdown-it-py, httpcore, anyio, rich, httpx, typer, huggingface-hub, tokenizers, transformers
+Successfully installed annotated-doc-0.0.5 anyio-4.15.1 click-8.5.0 colorama-0.4.6 exceptiongroup-1.3.1 filelock-4.0.1 fsspec-2026.9.0 h11-0.16.0 hf-xet-1.6.0 httpcore-1.0.9 httpx-0.28
+.1 huggingface-hub-1.32.0 markdown-it-py-4.2.0 mdurl-0.1.2 numpy-2.2.6 packaging-26.3 pygments-2.21.0 regex-2026.9.10 rich-15.0.0 safetensors-0.8.0 sentencepiece-0.2.2 shellingham-1.5.
+4 tokenizers-0.23.2 tomli-2.4.1 tqdm-4.70.1 transformers-5.17.0 typer-0.27.2
+
+[notice] A new release of pip available: 22.3.1 -> 26.2.1
+[notice] To update, run: C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe -m pip install --upgrade pip
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" chunking.py --processed-dir ../../data/processed --out-dir
+../../data/processed
+C:\Program Files\Python310\python.exe: can't open file 'C:\\Users\\migov\\OneDrive\\Рабочий стол\\PAD\\lab1\\chunking.py': [Errno 2] No such file or directory
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>cd src\preprocessing
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\preprocessing>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 708E-79F8
+
+ Содержимое папки C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\preprocessing
+
+19.09.2026  09:45    <DIR>          .
+19.09.2026  09:45    <DIR>          ..
+19.09.2026  09:45            11 445 chunking.py
+               1 файлов         11 445 байт
+               2 папок  23 992 094 720 байт свободно
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\preprocessing>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" chunking.py --processed-dir ../../data/pr
+ocessed --out-dir ../../data/processed
+[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+config.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 694/694 [00:00<?, ?B/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+tokenizer_config.json: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 418/418 [00:00<00:00, 417kB/s]
+sentencepiece.bpe.model: downloading bytes: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3.62MB,  344kB/s
+sentencepiece.bpe.model: reconstructing file: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 5.07MB / 5.07MB,  484kB/s
+tokenizer.json: downloading bytes: ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5.88MB,  564kB/s
+tokenizer.json: reconstructing file: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17.1MB / 17.1MB, 1.65MB/s
+special_tokens_map.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 280/280 [00:00<?, ?B/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (8867 > 512). Running this sequence through the model will result in in
+dexing errors
+[fixed_size] chunks: 3705, средний размер: 488 токенов -> chunks_fixed_size.json
+[fixed_size_overlap] chunks: 4609, средний размер: 487 токенов -> chunks_fixed_size_overlap.json
+[paragraph] chunks: 5104, средний размер: 354 токенов -> chunks_paragraph.json
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\preprocessing>cd .. ..
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\preprocessing>cd .. ..
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\preprocessing>cd ../..
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git add .
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git commit -m "Add chunking with 3 strategies"
+[main 6dbf52e] Add chunking with 3 strategies
+ 3 files changed, 285 insertions(+), 1 deletion(-)
+ delete mode 100644 src/preprocessing/__init__.py
+ create mode 100644 src/preprocessing/chunking.py
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 3.67 KiB | 940.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/Voland13915/PAD.git
+   1729ede..6dbf52e  main -> main
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>"...\venv\Scripts\python.exe" -m pip install sentence-transformers faiss-cpu
+Системе не удается найти указанный путь.
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" -m pip install sentence-transformers faiss-cpu
+Collecting sentence-transformers
+  Downloading sentence_transformers-6.1.0-py3-none-any.whl (740 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 740.6/740.6 kB 3.4 MB/s eta 0:00:00
+Collecting faiss-cpu
+  Downloading faiss_cpu-1.15.1-cp310-cp310-win_amd64.whl (16.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.3/16.3 MB 17.7 MB/s eta 0:00:00
+Collecting torch>=2.2
+  Downloading torch-2.14.0-cp310-cp310-win_amd64.whl (124.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 124.1/124.1 MB 11.1 MB/s eta 0:00:00
+Requirement already satisfied: tokenizers>=0.19 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from sentence-transformers) (0.23.2)
+Requirement already satisfied: tqdm>=4.0.0 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from sentence-transformers) (4.70.1)
+Requirement already satisfied: typing_extensions>=4.10.0 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from sentence-transformers) (4.16.0)
+Requirement already satisfied: numpy>=1.24.0 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from sentence-transformers) (2.2.6)
+Collecting scipy>=1.0.0
+  Using cached scipy-1.15.3-cp310-cp310-win_amd64.whl (41.3 MB)
+Collecting scikit-learn>=1.1.0
+  Using cached scikit_learn-1.7.2-cp310-cp310-win_amd64.whl (8.9 MB)
+Requirement already satisfied: transformers<6.0.0,>=5.0.0 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from sentence-transformers) (5.17.0)
+Requirement already satisfied: huggingface-hub<2.0.0,>=1.3.0 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from sentence-transformers) (1.32.0)
+Requirement already satisfied: packaging in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from faiss-cpu) (26.3)
+Requirement already satisfied: filelock>=3.10.0 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from huggingface-hub<2.0.0,>=1.3.0->sentence-transformers) (4.0
+.1)
+Requirement already satisfied: click<9.0.0,>=8.4.2 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from huggingface-hub<2.0.0,>=1.3.0->sentence-transformers) (
+8.5.0)
+Requirement already satisfied: tomli>=1.1.0 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from huggingface-hub<2.0.0,>=1.3.0->sentence-transformers) (2.4.1)
+Requirement already satisfied: pyyaml>=5.1 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from huggingface-hub<2.0.0,>=1.3.0->sentence-transformers) (6.0.3)
+Requirement already satisfied: fsspec>=2023.5.0 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from huggingface-hub<2.0.0,>=1.3.0->sentence-transformers) (202
+6.9.0)
+Requirement already satisfied: hf-xet<2.0.0,>=1.5.2 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from huggingface-hub<2.0.0,>=1.3.0->sentence-transformers)
+(1.6.0)
+Requirement already satisfied: httpx<1,>=0.23.0 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from huggingface-hub<2.0.0,>=1.3.0->sentence-transformers) (0.2
+8.1)
+Collecting threadpoolctl>=3.1.0
+  Downloading threadpoolctl-3.7.0-py3-none-any.whl (26 kB)
+Collecting joblib>=1.2.0
+  Downloading joblib-1.6.0-py3-none-any.whl (306 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 306.1/306.1 kB 18.5 MB/s eta 0:00:00
+Collecting sympy>=1.13.3
+  Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 17.5 MB/s eta 0:00:00
+Collecting setuptools>=77.0.3
+  Downloading setuptools-84.0.0-py3-none-any.whl (818 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 818.2/818.2 kB 17.2 MB/s eta 0:00:00
+Collecting jinja2
+  Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+Collecting networkx>=2.5.1
+  Downloading networkx-3.4.2-py3-none-any.whl (1.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 18.2 MB/s eta 0:00:00
+Requirement already satisfied: colorama in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from tqdm>=4.0.0->sentence-transformers) (0.4.6)
+Requirement already satisfied: regex>=2025.10.22 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from transformers<6.0.0,>=5.0.0->sentence-transformers) (2026.
+9.10)
+Requirement already satisfied: safetensors>=0.8.0 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from transformers<6.0.0,>=5.0.0->sentence-transformers) (0.8.
+0)
+Requirement already satisfied: typer in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from transformers<6.0.0,>=5.0.0->sentence-transformers) (0.27.2)
+Requirement already satisfied: httpcore==1.* in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from httpx<1,>=0.23.0->huggingface-hub<2.0.0,>=1.3.0->sentence-tra
+nsformers) (1.0.9)
+Requirement already satisfied: anyio in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from httpx<1,>=0.23.0->huggingface-hub<2.0.0,>=1.3.0->sentence-transformer
+s) (4.15.1)
+Requirement already satisfied: idna in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from httpx<1,>=0.23.0->huggingface-hub<2.0.0,>=1.3.0->sentence-transformers
+) (3.20)
+Requirement already satisfied: certifi in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from httpx<1,>=0.23.0->huggingface-hub<2.0.0,>=1.3.0->sentence-transform
+ers) (2026.7.22)
+Requirement already satisfied: h11>=0.16 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from httpcore==1.*->httpx<1,>=0.23.0->huggingface-hub<2.0.0,>=1.3.0->s
+entence-transformers) (0.16.0)
+Collecting cloudpickle>=3.0
+  Downloading cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Collecting mpmath<1.4,>=1.1.0
+  Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 17.0 MB/s eta 0:00:00
+Collecting MarkupSafe>=2.0
+  Using cached markupsafe-3.0.3-cp310-cp310-win_amd64.whl (15 kB)
+Requirement already satisfied: annotated-doc>=0.0.2 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from typer->transformers<6.0.0,>=5.0.0->sentence-transforme
+rs) (0.0.5)
+Requirement already satisfied: shellingham>=1.3.0 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from typer->transformers<6.0.0,>=5.0.0->sentence-transformers
+) (1.5.4)
+Requirement already satisfied: rich>=13.8.0 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from typer->transformers<6.0.0,>=5.0.0->sentence-transformers) (15.
+0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from rich>=13.8.0->typer->transformers<6.0.0,>=5.0.0->se
+ntence-transformers) (2.21.0)
+Requirement already satisfied: markdown-it-py>=2.2.0 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from rich>=13.8.0->typer->transformers<6.0.0,>=5.0.0->sent
+ence-transformers) (4.2.0)
+Requirement already satisfied: exceptiongroup>=1.0.2 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from anyio->httpx<1,>=0.23.0->huggingface-hub<2.0.0,>=1.3.
+0->sentence-transformers) (1.3.1)
+Requirement already satisfied: mdurl~=0.1 in c:\users\migov\onedrive\рабочий стол\pad\lab1\venv\lib\site-packages (from markdown-it-py>=2.2.0->rich>=13.8.0->typer->transformers<6.0.0,>
+=5.0.0->sentence-transformers) (0.1.2)
+Installing collected packages: mpmath, threadpoolctl, sympy, setuptools, scipy, networkx, MarkupSafe, faiss-cpu, cloudpickle, joblib, jinja2, torch, scikit-learn, sentence-transformers
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 65.5.1
+    Uninstalling setuptools-65.5.1:
+      Successfully uninstalled setuptools-65.5.1
+Successfully installed MarkupSafe-3.0.3 cloudpickle-3.1.2 faiss-cpu-1.15.1 jinja2-3.1.6 joblib-1.6.0 mpmath-1.3.0 networkx-3.4.2 scikit-learn-1.7.2 scipy-1.15.3 sentence-transformers-6
+.1.0 setuptools-84.0.0 sympy-1.14.0 threadpoolctl-3.7.0 torch-2.14.0
+
+[notice] A new release of pip available: 22.3.1 -> 26.2.1
+[notice] To update, run: C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe -m pip install --upgrade pip
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" embed_store.py --processed-dir ../../data/processed --faiss
+-dir ../../data/processed/faiss
+C:\Program Files\Python310\python.exe: can't open file 'C:\\Users\\migov\\OneDrive\\Рабочий стол\\PAD\\lab1\\embed_store.py': [Errno 2] No such file or directory
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" embed_store.py --processed-dir ../../data/processed --faiss
+-dir ../../data/processed/faiss
+C:\Program Files\Python310\python.exe: can't open file 'C:\\Users\\migov\\OneDrive\\Рабочий стол\\PAD\\lab1\\embed_store.py': [Errno 2] No such file or directory
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>cd src\embeddings
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\embeddings>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 708E-79F8
+
+ Содержимое папки C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\embeddings
+
+19.09.2026  09:57    <DIR>          .
+19.09.2026  09:57    <DIR>          ..
+19.09.2026  09:57             7 207 embed_store.py
+               1 файлов          7 207 байт
+               2 папок  22 898 319 360 байт свободно
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\embeddings>cd ../..
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" embed_store.py --processed-dir ../../data/processed --faiss
+-dir ../../data/processed/faiss
+C:\Program Files\Python310\python.exe: can't open file 'C:\\Users\\migov\\OneDrive\\Рабочий стол\\PAD\\lab1\\embed_store.py': [Errno 2] No such file or directory
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>cd src\embeddings
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\embeddings>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" embed_store.py --processed-dir ../../data/pr
+ocessed --faiss-dir ../../data/processed/faiss
+
+Загружаю модель: intfloat/multilingual-e5-base
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+modules.json: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 387/387 [00:00<?, ?B/s]
+README.md: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 179k/179k [00:00<00:00, 89.6MB/s]
+sentence_bert_config.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 57.0/57.0 [00:00<?, ?B/s]
+model.safetensors: downloading bytes: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████|  741MB, 19.0MB/s
+model.safetensors: reconstructing file: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.11GB / 1.11GB, 55.4MB/s
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 435.45it/s]
+config.json: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 200/200 [00:00<00:00, 199kB/s]
+  Строю индекс: fixed_size x e5-base (3705 чанков)...
+Batches: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 116/116 [1:20:21<00:00, 41.56s/it]
+C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\embeddings\embed_store.py:64: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimensio
+n`.
+  return self._model.get_sentence_embedding_dimension()
+  -> сохранено: fixed_size__e5-base.index / .meta.json
+  Строю индекс: fixed_size_overlap x e5-base (4609 чанков)...
+Batches: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 145/145 [1:36:51<00:00, 40.08s/it]
+  -> сохранено: fixed_size_overlap__e5-base.index / .meta.json
+  Строю индекс: paragraph x e5-base (5104 чанков)...
+Batches: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 160/160 [1:21:18<00:00, 30.49s/it]
+  -> сохранено: paragraph__e5-base.index / .meta.json
+
+Загружаю модель: paraphrase-multilingual-mpnet-base-v2
+modules.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 229/229 [00:00<00:00, 227kB/s]
+config_sentence_transformers.json: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 122/122 [00:00<?, ?B/s]
+README.md: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5.12k/5.12k [00:00<?, ?B/s]
+sentence_bert_config.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 53.0/53.0 [00:00<00:00, 56.2kB/s]
+config.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 723/723 [00:00<?, ?B/s]
+model.safetensors: downloading bytes: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.06GB, 16.2MB/s
+model.safetensors: reconstructing file: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.11GB / 1.11GB, 60.7MB/s
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 325.70it/s]
+tokenizer_config.json: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 402/402 [00:00<?, ?B/s]
+tokenizer.json: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9.08M/9.08M [00:00<00:00, 44.5MB/s]
+special_tokens_map.json: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 239/239 [00:00<00:00, 238kB/s]
+config.json: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 190/190 [00:00<00:00, 189kB/s]
+  Строю индекс: fixed_size x paraphrase-mpnet-base-v2 (3705 чанков)...
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 116/116 [21:23<00:00, 11.06s/it]
+C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\embeddings\embed_store.py:64: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimensio
+n`.
+  return self._model.get_sentence_embedding_dimension()
+  -> сохранено: fixed_size__paraphrase-mpnet-base-v2.index / .meta.json
+  Строю индекс: fixed_size_overlap x paraphrase-mpnet-base-v2 (4609 чанков)...
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 145/145 [24:37<00:00, 10.19s/it]
+  -> сохранено: fixed_size_overlap__paraphrase-mpnet-base-v2.index / .meta.json
+  Строю индекс: paragraph x paraphrase-mpnet-base-v2 (5104 чанков)...
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 160/160 [28:55<00:00, 10.84s/it]
+  -> сохранено: paragraph__paraphrase-mpnet-base-v2.index / .meta.json
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\embeddings>cd ../..
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git add .
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git commit -m "5.5 часовой Embedding"
+[main 2cbd392] 5.5 часовой Embedding
+ 3 files changed, 174 insertions(+), 1 deletion(-)
+ delete mode 100644 src/embeddings/__init__.py
+ create mode 100644 src/embeddings/embed_store.py
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 2.99 KiB | 1.50 MiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/Voland13915/PAD.git
+   6dbf52e..2cbd392  main -> main
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>cd src/embeddings
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\embeddings>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 708E-79F8
+
+ Содержимое папки C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\embeddings
+
+19.09.2026  09:57    <DIR>          .
+19.09.2026  09:57    <DIR>          ..
+19.09.2026  09:57             7 207 embed_store.py
+               1 файлов          7 207 байт
+               2 папок  20 695 769 088 байт свободно
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\embeddings>cd src\retrieval
+Системе не удается найти указанный путь.
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\embeddings>cd ../..
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>cd src\retrieval
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\retrieval>"...\venv\Scripts\python.exe" retriever.py --strategy paragraph --model intfloat/multilingual-e5-base --top-k 5
+Системе не удается найти указанный путь.
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\retrieval>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" retriever.py --strategy paragraph --model int
+float/multilingual-e5-base --top-k 5
+Загружаю модель intfloat/multilingual-e5-base...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 410.89it/s]
+Загружаю индекс paragraph__e5-base...
+Готово: 5104 векторов в индексе.
+
+Введи вопрос (или 'exit' для выхода):
+
+> Кто убил Дамблдора?
+
+1. [score=0.8385] книга 6 «Гарри Поттер и Принц-полукровка», Глава 27 — Башня Молний
+   Струя зелёного пламени вырвалась из волшебной палочки Снегга и ударила Дамблдора прямо в середину груди. Гарри завопил от ужаса, но вопль этот с губ е...
+
+2. [score=0.8294] книга 6 «Гарри Поттер и Принц-полукровка», Глава 30 — Белая гробница
+   По проходу между стульями медленно шествовал Хагрид. Лицо его блестело от слёз, он безмолвно плакал, неся в руках, как сразу понял Гарри, тело Дамблдо...
+
+3. [score=0.8260] книга 7 «Гарри Поттер и Дары Смерти», Глава 27 — Последний тайник
+   Бузинная палочка хлестнула воздух. Комнату озарила вспышка зелёного света. Стоявший на коленях гоблин повалился на бок — мёртвый. Волшебники в страхе ...
+
+4. [score=0.8246] книга 4 «Гарри Поттер и Кубок огня», Глава 28 — Мистер Крауч сходит с ума
+   — Привести кого-нибудь? — спросил Гарри. — Может, мадам Помфри? — Нет, — торопливо ответил Дамблдор. — Стой здесь. Он поднял волшебную палочку высоко ...
+
+5. [score=0.8244] книга 7 «Гарри Поттер и Дары Смерти», Глава 35 — Кингс-Кросс
+   — О чём вы говорите? — спросил Гарри, поражённый тоном Дамблдора и слезами, внезапно выступившими у него на глазах. — Дары, эти Дары, — пробормотал Да...
+
+> Кто создал философский камень?
+
+1. [score=0.8235] книга 1 «Гарри Поттер и философский камень», Глава 13 — Николас Фламель
+   — Лёгкого? — переспросил Рон. Гермиона вместо ответа посоветовала ему помолчать, пока она не найдёт то, что надо, и начала лихорадочно переворачивать ...
+
+2. [score=0.8018] книга 6 «Гарри Поттер и Принц-полукровка», Глава 23 — Крестражи
+   Затем, два года спустя, ты рассказал мне, что в ночь, когда Волан-де-Морт возродился, он обратился к Пожирателям смерти со словами, которые не только ...
+
+3. [score=0.7855] книга 1 «Гарри Поттер и философский камень», Глава 16 — Прыжок в люк
+   Гарри старался изо всех сил, пытаясь не обращать внимания на сильную колющую боль во лбу, которая беспокоила его с той ночи в лесу. Невилл был убеждён...
+
+4. [score=0.7847] книга 7 «Гарри Поттер и Дары Смерти», Глава 21 — Сказка о трёх братьях
+   Гарри засмеялся. Ему вдруг пришла в голову дикая мысль… Нет, это чушь. Его волшебная палочка была не из бузины, а из остролиста, и сделал её Олливанде...
+
+5. [score=0.7845] книга 1 «Гарри Поттер и философский камень», Глава 16 — Прыжок в люк
+   — Послушайте, профессор, — неуверенным тоном начал Гарри, вдруг сказав себе, что сейчас ему надо отбросить осторожность. — Это касается философского к...
+
+> Какое настоящее имя у Волан-де-Морта?
+
+1. [score=0.8195] книга 2 «Гарри Поттер и Тайная комната», Глава 17 — Наследник Слизерина
+   — Первый вопрос. — Реддл располагающе улыбнулся. — Как это вышло, что ребёнок, не обладавший особенными чарами, смог одолеть величайшего в мире волшеб...
+
+2. [score=0.8162] книга 4 «Гарри Поттер и Кубок огня», Глава 27 — Возвращение Бродяги
+   — Представьте себе, что Волан-де-Морт силён, как раньше. Никто не знает его сторонников, кто на него работает, а кто нет. Известно только, что он полн...
+
+3. [score=0.8143] книга 6 «Гарри Поттер и Принц-полукровка», Глава 23 — Крестражи
+   — Гарри, Гарри, так ведь это лишь потому, что Волан-де-Морт совершил серьёзнейшую ошибку, начав действовать, полагаясь на слова профессора Трелони! Ес...
+
+4. [score=0.8133] книга 5 «Гарри Поттер и Орден Феникса», Глава 37 — Утраченное пророчество
+   Мой ответ таков: в первую очередь я хотел сохранить тебе жизнь. Пожалуй, я один знал, какая огромная опасность тебе угрожает. Волан-де-Морт был побежд...
+
+5. [score=0.8119] книга 1 «Гарри Поттер и философский камень», Глава 1 — Мальчик, который выжил
+   — Что? — Засахаренную лимонную дольку. Это такие сладости, которые едят маглы, — лично мне они очень нравятся. — Нет, благодарю вас. — Голос профессор...
+
+> exit
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\retrieval>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" retriever.py --strategy paragraph --model int
+float/multilingual-e5-base --compare-k
+Загружаю модель intfloat/multilingual-e5-base...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 631.07it/s]
+Загружаю индекс paragraph__e5-base...
+Готово: 5104 векторов в индексе.
+
+
+======================================================================
+Вопрос: Кто убил Дамблдора?
+======================================================================
+  K=3   avg_score=0.8313  главы: ['6/27', '6/30', '7/27']
+  K=5   avg_score=0.8286  главы: ['6/27', '6/30', '7/27', '4/28', '7/35']
+  K=10  avg_score=0.8254  главы: ['6/27', '6/30', '7/27', '4/28', '7/35', '6/28', '4/35', '7/18', '6/30', '5/5']
+  K=20  avg_score=0.8214  главы: ['6/27', '6/30', '7/27', '4/28', '7/35', '6/28', '4/35', '7/18', '6/30', '5/5', '7/24', '6/30', '5/11', '7/34', '5/16', '6/28', '4/35', '7/34', '6/30',
+ '4/37']
+
+======================================================================
+Вопрос: Как зовут домашнего эльфа Добби?
+======================================================================
+  K=3   avg_score=0.8343  главы: ['2/2', '4/8', '7/24']
+  K=5   avg_score=0.8313  главы: ['2/2', '4/8', '7/24', '5/27', '4/23']
+  K=10  avg_score=0.8261  главы: ['2/2', '4/8', '7/24', '5/27', '4/23', '4/21', '4/21', '5/18', '4/21', '2/10']
+  K=20  avg_score=0.8205  главы: ['2/2', '4/8', '7/24', '5/27', '4/23', '4/21', '4/21', '5/18', '4/21', '2/10', '4/21', '6/19', '5/23', '2/10', '4/8', '2/10', '5/1', '4/26', '4/28', '2
+/10']
+
+======================================================================
+Вопрос: Что такое философский камень?
+======================================================================
+  K=3   avg_score=0.8009  главы: ['1/13', '1/16', '6/23']
+  K=5   avg_score=0.7934  главы: ['1/13', '1/16', '6/23', '7/21', '1/13']
+  K=10  avg_score=0.7858  главы: ['1/13', '1/16', '6/23', '7/21', '1/13', '1/15', '1/16', '7/22', '1/14', '7/34']
+  K=20  avg_score=0.7792  главы: ['1/13', '1/16', '6/23', '7/21', '1/13', '1/15', '1/16', '7/22', '1/14', '7/34', '4/33', '5/29', '7/22', '3/4', '1/14', '5/37', '6/28', '7/35', '5/38',
+ '1/16']
+
+======================================================================
+Вопрос: Кто такой Сириус Блэк?
+======================================================================
+  K=3   avg_score=0.8132  главы: ['6/3', '7/10', '5/6']
+  K=5   avg_score=0.8122  главы: ['6/3', '7/10', '5/6', '5/38', '5/5']
+  K=10  avg_score=0.8068  главы: ['6/3', '7/10', '5/6', '5/38', '5/5', '5/37', '5/14', '5/5', '6/13', '3/18']
+  K=20  avg_score=0.8009  главы: ['6/3', '7/10', '5/6', '5/38', '5/5', '5/37', '5/14', '5/5', '6/13', '3/18', '5/28', '3/19', '7/10', '5/38', '3/3', '4/36', '5/37', '5/6', '3/17', '5/3
+7']
+
+======================================================================
+Вопрос: Какое заклинание убивает?
+======================================================================
+  K=3   avg_score=0.8041  главы: ['2/9', '6/28', '5/35']
+  K=5   avg_score=0.8032  главы: ['2/9', '6/28', '5/35', '6/28', '6/23']
+  K=10  avg_score=0.8003  главы: ['2/9', '6/28', '5/35', '6/28', '6/23', '5/35', '6/29', '4/37', '7/22', '6/28']
+  K=20  avg_score=0.7966  главы: ['2/9', '6/28', '5/35', '6/28', '6/23', '5/35', '6/29', '4/37', '7/22', '6/28', '4/9', '7/9', '7/4', '4/33', '6/26', '4/31', '4/35', '6/12', '6/9', '6/
+23']
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\retrieval>cd ../..
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>cd src\reranking
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\reranking>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" reranker.py --strategy paragraph --embedding-
+model intfloat/multilingual-e5-base
+C:\Program Files\Python310\python.exe: can't open file 'C:\\Users\\migov\\OneDrive\\Рабочий стол\\PAD\\lab1\\src\\reranking\\reranker.py': [Errno 2] No such file or directory
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\reranking>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" reranker.py --strategy paragraph --embedding-
+model intfloat/multilingual-e5-base
+Загружаю модель intfloat/multilingual-e5-base...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 644.74it/s]
+Загружаю индекс paragraph__e5-base...
+Готово: 5104 векторов в индексе.
+
+Загружаю reranker cross-encoder/mmarco-mMiniLMv2-L12-H384-v1...
+config.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 891/891 [00:00<?, ?B/s]
+model.safetensors: downloading bytes: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████|  426MB, 17.7MB/s
+model.safetensors: reconstructing file: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████|  471MB /  471MB, 13.7MB/s
+Loading weights: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 201/201 [00:00<00:00, 1923.24it/s]
+tokenizer_config.json: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 435/435 [00:00<?, ?B/s]
+special_tokens_map.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 239/239 [00:00<?, ?B/s]
+
+======================================================================
+Вопрос: Кто убил Дамблдора?
+======================================================================
+
+-- Только retriever (top-5) --
+  1. [0.8385] книга 6, Глава 27 — Башня Молний
+  2. [0.8294] книга 6, Глава 30 — Белая гробница
+  3. [0.8260] книга 7, Глава 27 — Последний тайник
+  4. [0.8246] книга 4, Глава 28 — Мистер Крауч сходит с ума
+  5. [0.8244] книга 7, Глава 35 — Кингс-Кросс
+
+-- Retriever(top-20) + Reranker -> top-5 --
+  1. [rerank=4.9043, orig_score=0.8167] книга 6, Глава 28 — Бегство Принца-полукровки
+  2. [rerank=2.9594, orig_score=0.8385] книга 6, Глава 27 — Башня Молний
+  3. [rerank=2.1144, orig_score=0.8260] книга 7, Глава 27 — Последний тайник
+  4. [rerank=1.9953, orig_score=0.8159] книга 4, Глава 37 — Начало
+  5. [rerank=1.8255, orig_score=0.8160] книга 4, Глава 35 — Сыворотка правды
+
+======================================================================
+Вопрос: Как зовут домашнего эльфа Добби?
+======================================================================
+
+-- Только retriever (top-5) --
+  1. [0.8407] книга 2, Глава 2 — Добби предупреждает об опасности
+  2. [0.8313] книга 4, Глава 8 — Чемпионат мира по квиддичу
+  3. [0.8308] книга 7, Глава 24 — Мастер волшебных палочек
+  4. [0.8284] книга 5, Глава 27 — Кентавр и ябеда
+  5. [0.8253] книга 4, Глава 23 — Святочный бал
+
+-- Retriever(top-20) + Reranker -> top-5 --
+  1. [rerank=5.3626, orig_score=0.8313] книга 4, Глава 8 — Чемпионат мира по квиддичу
+  2. [rerank=2.8578, orig_score=0.8209] книга 5, Глава 18 — Отряд Дамблдора
+  3. [rerank=2.7152, orig_score=0.8246] книга 4, Глава 21 — Фронт освобождения рабского труда
+  4. [rerank=2.4057, orig_score=0.8407] книга 2, Глава 2 — Добби предупреждает об опасности
+  5. [rerank=1.5005, orig_score=0.8150] книга 4, Глава 8 — Чемпионат мира по квиддичу
+
+======================================================================
+Вопрос: Что такое философский камень?
+======================================================================
+
+-- Только retriever (top-5) --
+  1. [0.8127] книга 1, Глава 13 — Николас Фламель
+  2. [0.7964] книга 1, Глава 16 — Прыжок в люк
+  3. [0.7936] книга 6, Глава 23 — Крестражи
+  4. [0.7822] книга 7, Глава 21 — Сказка о трёх братьях
+  5. [0.7820] книга 1, Глава 13 — Николас Фламель
+
+-- Retriever(top-20) + Reranker -> top-5 --
+  1. [rerank=-0.7677, orig_score=0.7964] книга 1, Глава 16 — Прыжок в люк
+  2. [rerank=-1.1802, orig_score=0.8127] книга 1, Глава 13 — Николас Фламель
+  3. [rerank=-1.5144, orig_score=0.7822] книга 7, Глава 21 — Сказка о трёх братьях
+  4. [rerank=-2.0671, orig_score=0.7761] книга 1, Глава 14 — Дракон по имени Норберт
+  5. [rerank=-3.0329, orig_score=0.7804] книга 1, Глава 16 — Прыжок в люк
+
+======================================================================
+Вопрос: Кто такой Сириус Блэк?
+======================================================================
+
+-- Только retriever (top-5) --
+  1. [0.8145] книга 6, Глава 3 — Будет — не будет
+  2. [0.8132] книга 7, Глава 10 — Рассказ Кикимера
+  3. [0.8118] книга 5, Глава 6 — Благороднейшее и древнейшее семейство Блэков
+  4. [0.8108] книга 5, Глава 38 — Вторая война начинается
+  5. [0.8106] книга 5, Глава 5 — Орден Феникса
+
+-- Retriever(top-20) + Reranker -> top-5 --
+  1. [rerank=3.2102, orig_score=0.8145] книга 6, Глава 3 — Будет — не будет
+  2. [rerank=2.8988, orig_score=0.7933] книга 5, Глава 6 — Благороднейшее и древнейшее семейство Блэков
+  3. [rerank=2.3072, orig_score=0.7948] книга 3, Глава 3 — Автобус «Ночной Рыцарь»
+  4. [rerank=2.2713, orig_score=0.8108] книга 5, Глава 38 — Вторая война начинается
+  5. [rerank=1.6699, orig_score=0.7930] книга 3, Глава 17 — Крыса, Кот и Пёс
+
+======================================================================
+Вопрос: Какое заклинание убивает?
+======================================================================
+
+-- Только retriever (top-5) --
+  1. [0.8067] книга 2, Глава 9 — Слова на стене
+  2. [0.8036] книга 6, Глава 28 — Бегство Принца-полукровки
+  3. [0.8021] книга 5, Глава 35 — По ту сторону занавеса
+  4. [0.8020] книга 6, Глава 28 — Бегство Принца-полукровки
+  5. [0.8016] книга 6, Глава 23 — Крестражи
+
+-- Retriever(top-20) + Reranker -> top-5 --
+  1. [rerank=-0.9421, orig_score=0.7951] книга 7, Глава 4 — Семеро Поттеров
+  2. [rerank=-1.4647, orig_score=0.7971] книга 7, Глава 22 — Дары Смерти
+  3. [rerank=-1.5946, orig_score=0.8036] книга 6, Глава 28 — Бегство Принца-полукровки
+  4. [rerank=-1.6576, orig_score=0.8016] книга 6, Глава 23 — Крестражи
+  5. [rerank=-2.4131, orig_score=0.8021] книга 5, Глава 35 — По ту сторону занавеса
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\reranking>cd ../..
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>cd src\evaluation
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\evaluation>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" eval_metrics.py --strategy paragraph --model
+ intfloat/multilingual-e5-base
+Загружаю модель intfloat/multilingual-e5-base...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 532.46it/s]
+Загружаю индекс paragraph__e5-base...
+Готово: 5104 векторов в индексе.
+
+[!] Пропущено 27 вопросов без заполненных relevant_document_ids (в т.ч. все вопросы типа 'no_answer' — это ожидаемо):
+    - q03 (simple_fact): На каком факультете учился Гарри Поттер?  <- ЗАПОЛНИ relevant_document_ids
+    - q04 (simple_fact): Как называется банк волшебников в Косом переулке?  <- ЗАПОЛНИ relevant_document_ids
+    - q05 (simple_fact): Кто такой Полумна Лавгуд?  <- ЗАПОЛНИ relevant_document_ids
+    - q06 (simple_fact): Как называется вид спорта на мётлах в мире волшебников?  <- ЗАПОЛНИ relevant_document_ids
+    - q07 (multi_document): Как менялись отношения Гарри и Снегга на протяжении всех семи книг?  <- ЗАПОЛНИ relevant_document_ids
+    - q08 (multi_document): Как раскрывается история крестражей на протяжении серии?  <- ЗАПОЛНИ relevant_document_ids
+    - q09 (multi_document): Как менялась роль Сириуса Блэка в жизни Гарри от 3 к 5 книге?  <- ЗАПОЛНИ relevant_document_ids
+    - q10 (multi_document): Какие события связывают Тайную комнату (2 книга) и финал серии?  <- ЗАПОЛНИ relevant_document_ids
+    - q11 (multi_document): Как менялось отношение волшебного сообщества к Гарри как к 'Избранному' по ходу серии?  <- ЗАПОЛНИ relevant_document_ids
+    - q12 (multi_document): Какую роль сыграла Выручай-комната в разных книгах серии?  <- ЗАПОЛНИ relevant_document_ids
+    - q13 (specific_info): Какое заклинание убивает?  <- ЗАПОЛНИ relevant_document_ids
+    - q15 (specific_info): Из чего сделана волшебная палочка Гарри Поттера?  <- ЗАПОЛНИ relevant_document_ids
+    - q16 (specific_info): Кто варил Оборотное зелье во 2 книге?  <- ЗАПОЛНИ relevant_document_ids
+    - q17 (specific_info): Какого цвета галстук у факультета Слизерин?  <- ЗАПОЛНИ relevant_document_ids
+    - q18 (specific_info): Кто был профессором Защиты от Тёмных искусств на 3 курсе Гарри?  <- ЗАПОЛНИ relevant_document_ids
+    - q19 (context_understanding): Почему Дамблдор доверял Снеггу, несмотря на его прошлое Пожирателя смерти?  <- ЗАПОЛНИ relevant_document_ids
+    - q20 (context_understanding): Почему Волан-де-Морт не мог прикоснуться к Гарри в первой книге?  <- ЗАПОЛНИ relevant_document_ids
+    - q21 (context_understanding): Почему пророчество о Гарри и Волан-де-Морте могло относиться и к Невиллу Лонгботтому?  <- ЗАПОЛНИ relevant_document_ids
+    - q22 (context_understanding): Почему Гарри смог выжить после удара Авада Кедавра от Волан-де-Морта в финале?  <- ЗАПОЛНИ relevant_document_ids
+    - q23 (context_understanding): Почему Букля важна как символ на протяжении серии?  <- ЗАПОЛНИ relevant_document_ids
+    - q24 (context_understanding): Почему Дары Смерти важны для финального противостояния с Волан-де-Мортом?  <- ЗАПОЛНИ relevant_document_ids
+
+============================================================
+paragraph / intfloat/multilingual-e5-base
+============================================================
+Оценено вопросов: 3
+MRR: 0.6667
+  K=3   Recall@K=0.6667  Precision@K=0.2222
+  K=5   Recall@K=0.6667  Precision@K=0.1333
+  K=10  Recall@K=0.6667  Precision@K=0.0667
+  K=20  Recall@K=0.6667  Precision@K=0.0500
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\evaluation>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe"fill_ground_truth.py --strategy paragraph --m
+odel intfloat/multilingual-e5-base
+""C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe"fill_ground_truth.py" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\evaluation>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe"fill_ground_truth.py --strategy paragraph --m
+odel intfloat/multilingual-e5-base
+""C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe"fill_ground_truth.py" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\evaluation>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" fill_ground_truth.py --strategy paragraph --
+model intfloat/multilingual-e5-base
+Загружаю модель intfloat/multilingual-e5-base...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 565.70it/s]
+Загружаю индекс paragraph__e5-base...
+Готово: 5104 векторов в индексе.
+
+Вопросов для разметки: 21
+
+
+======================================================================
+[q03] (simple_fact) На каком факультете учился Гарри Поттер?
+Ожидаемый ответ (подсказка): Гриффиндор
+======================================================================
+  1. книга 2, Глава 1 — День рождения — хуже некуда  [hp2_ch01]
+     С самого начала летних каникул дядя Вернон обращался с ним, как с бомбой замедленного действия. Дело...
+  2. книга 1, Глава 6 — Путешествие с платформы номер девять и три четверти  [hp1_ch06]
+     — Ты действительно Гарри Поттер? — Взгляд девочки стал очень внимательным. — Можешь не сомневаться, ...
+  3. книга 1, Глава 15 — Запретный лес  [hp1_ch15]
+     Минус сто пятьдесят очков. Теперь факультет Гриффиндор оказывался на последнем месте. Возможно, он е...
+  4. книга 3, Глава 1 — Совиная почта  [hp3_ch01]
+     Гарри Поттер — необычный мальчик во всех отношениях. Во-первых, он терпеть не может летние каникулы,...
+  5. книга 5, Глава 31 — СОВ  [hp5_ch31]
+     В среду они сдали экзамен по травологии (если не считать лёгкого укуса зубастой герани, для Гарри вс...
+  6. книга 5, Глава 29 — Выбор профессии  [hp5_ch29]
+     — Итак, Поттер, мы встретились, чтобы обсудить ваши профессиональные перспективы и помочь вам решить...
+  7. книга 1, Глава 7 — Распределяющая шляпа  [hp1_ch07]
+     — Добро пожаловать в Хогвартс, — наконец поприветствовала их профессор МакГонагалл. — Скоро начнётся...
+  8. книга 6, Глава 3 — Будет — не будет  [hp6_ch03]
+     Гарри Поттер громко храпел. Он почти четыре часа просидел на стуле у окна своей комнаты, глядя на те...
+  9. книга 1, Глава 17 — Человек с двумя лицами  [hp1_ch17]
+     — Итак, — продолжил он. — В связи с тем, что в свете последних событий некоторые ученики заработали ...
+  10. книга 1, Глава 7 — Распределяющая шляпа  [hp1_ch07]
+     Правда, нервничал не только Гарри. Когда вызвали Невилла Долгопупса, того самого мальчика, который в...
+
+Номера правильных (через запятую), Enter=пропустить, 'none'=не найдено: 7
+Сохранено: ['hp1_ch07']
+
+======================================================================
+[q04] (simple_fact) Как называется банк волшебников в Косом переулке?
+Ожидаемый ответ (подсказка): Гринготтс
+======================================================================
+  1. книга 3, Глава 4 — Дырявый котёл  [hp3_ch04]
+     Несколько дней Гарри привыкал к неведомой доселе свободе. Когда ещё он просыпался и завтракал не по ...
+  2. книга 7, Глава 26 — «Гринготтс»  [hp7_ch26]
+     Гарри, скрючившись под мантией с гоблином на спине, догнал Гермиону во дворе и зашептал ей в ухо: — ...
+  3. книга 4, Глава 6 — Портал  [hp4_ch06]
+     — В этом-то и состояла огромная организационная работа, — вздохнул мистер Уизли. — Трудность в том, ...
+  4. книга 6, Глава 13 — Неизвестный Реддл  [hp6_ch13]
+     — У нас в Хогвартсе, — продолжал Дамблдор, — учат не только пользоваться магией, но и держать её под...
+  5. книга 5, Глава 22 — Больница святого Мунго  [hp5_ch22]
+     Гарри не ответил. К счастью, подъехали к своей станции в самом сердце Лондона, и в общей суматохе Га...
+  6. книга 7, Глава 16 — Годрикова Впадина  [hp7_ch16]
+     — «После принятия в 1689 году Статута о секретности волшебники перешли на скрытный образ жизни. Внут...
+  7. книга 1, Глава 5 — Косой переулок  [hp1_ch05]
+     Хагрид был так велик, что без труда прокладывал себе дорогу сквозь толпу, от Гарри требовалось лишь ...
+  8. книга 3, Глава 3 — Автобус «Ночной Рыцарь»  [hp3_ch03]
+     А ведь он, Гарри Поттер, такой же преступник, как и Сириус Блэк. Может, и ему за тётушку Мардж свети...
+  9. книга 2, Глава 4 — «Флориш и Блоттс»  [hp2_ch04]
+     — Здравствуйте, друзья! — восторженно приветствовал их мистер Уизли. — Маглы! Вы — настоящие маглы! ...
+  10. книга 1, Глава 5 — Косой переулок  [hp1_ch05]
+     — Да. Бедный парень. А ведь талантливый такой, да! Он пока науки по книгам изучал, в полном порядке ...
+
+Номера правильных (через запятую), Enter=пропустить, 'none'=не найдено: 7, 10
+Сохранено: ['hp1_ch05', 'hp1_ch05']
+
+======================================================================
+[q05] (simple_fact) Кто такой Полумна Лавгуд?
+Ожидаемый ответ (подсказка): Однокурсница Гарри с факультета Когтевран
+======================================================================
+  1. книга 7, Глава 20 — Ксенофилиус Лавгуд  [hp7_ch20]
+     Едва они успели переступить порог, мистер Лавгуд захлопнул за ними дверь. Они оказались в самой удив...
+  2. книга 5, Глава 13 — Вечера у Долорес  [hp5_ch13]
+     Некоторое время спустя появилась Полумна Лавгуд. Она плелась в хвосте своего класса. Нос у неё был з...
+  3. книга 5, Глава 38 — Вторая война начинается  [hp5_ch38]
+     Повернув за угол, он увидел в коридоре, ведущем к портрету Полной Дамы, чью-то фигуру. Присмотревшис...
+  4. книга 7, Глава 8 — Свадьба  [hp7_ch08]
+     Крам угрожающе пристукнул по столу костяшками кулака и снова сердито вгляделся в Ксенофилиуса. Гарри...
+  5. книга 6, Глава 15 — Непреложный обет  [hp6_ch15]
+     Он уже отчасти надеялся, что она не согласится. — О нет, мне будет очень приятно пойти с тобой по-др...
+  6. книга 6, Глава 15 — Непреложный обет  [hp6_ch15]
+     — Чего? — растерялся Гарри. — Ты говоришь про министра магии? — Ну да, он вампир, — будничным тоном ...
+  7. книга 6, Глава 20 — Ходатайство Лорда Волан-де-Морта  [hp6_ch20]
+     — Сегодня вечером, — едва развернув свиток, сказал он Рону и Гермионе. — Ты здорово комментировала п...
+  8. книга 7, Глава 8 — Свадьба  [hp7_ch08]
+     — Привет, Гарри! — сказала она. — Э-э-э… меня зовут Барни, — ответил впавший в замешательство Гарри....
+  9. книга 5, Глава 10 — Полумна Лавгуд  [hp5_ch10]
+     Все засмеялись, и громче всех — Полумна Лавгуд. Она испустила такой громкий, радостный визг, что Бук...
+  10. книга 5, Глава 10 — Полумна Лавгуд  [hp5_ch10]
+     Гарри и Невилл положили три чемодана и клетку с Буклей на багажную сетку и сели. Полумна смотрела на...
+
+Номера правильных (через запятую), Enter=пропустить, 'none'=не найдено: 9, 10
+Сохранено: ['hp5_ch10', 'hp5_ch10']
+
+======================================================================
+[q06] (simple_fact) Как называется вид спорта на мётлах в мире волшебников?
+Ожидаемый ответ (подсказка): Квиддич
+======================================================================
+  1. книга 3, Глава 1 — Совиная почта  [hp3_ch01]
+     Гарри рассмеялся и взял подарок. Ух ты, какой тяжёлый! Наверняка это большая книга, где полно сложны...
+  2. книга 3, Глава 13 — Гриффиндор против Когтеврана  [hp3_ch13]
+     — Вуд, Дэйвис, обменяйтесь рукопожатием, — сухим судейским тоном произнесла мадам Трюк, и капитаны п...
+  3. книга 6, Глава 1 — Другой министр  [hp6_ch01]
+     Но они увиделись снова. Меньше года спустя встревоженный и сильно утомлённый Фадж возник прямо посре...
+  4. книга 2, Глава 7 — Грязнокровки и голоса  [hp2_ch07]
+     — Последняя модель. Появилась только месяц назад, — небрежно заметил Флинт, смахнув несуществующую п...
+  5. книга 2, Глава 1 — День рождения — хуже некуда  [hp2_ch01]
+     С самого начала летних каникул дядя Вернон обращался с ним, как с бомбой замедленного действия. Дело...
+  6. книга 4, Глава 6 — Портал  [hp4_ch06]
+     — В этом-то и состояла огромная организационная работа, — вздохнул мистер Уизли. — Трудность в том, ...
+  7. книга 4, Глава 19 — Венгерская хвосторога  [hp4_ch19]
+     — Так ты думаешь, это Каркаров хочет меня убить? Но почему? Сириус немного помедлил. — До меня доход...
+  8. книга 1, Глава 9 — Полночная дуэль  [hp1_ch09]
+     Малфой действительно чересчур много говорил о полётах. Он во всеуслышание сожалел о том, что первоку...
+  9. книга 4, Глава 16 — Кубок огня  [hp4_ch16]
+     — Торжественный миг приблизился. — Дамблдор оглядел, улыбаясь, обращённые к нему лица. — Турнир Трёх...
+  10. книга 4, Глава 7 — Бэгмен и Крауч  [hp4_ch07]
+     — Лучшего места не найти! — довольно потёр руки мистер Уизли. — Спортивное поле как раз за лесом. Бл...
+
+Номера правильных (через запятую), Enter=пропустить, 'none'=не найдено: none
+Отмечено как 'нет подходящего среди показанных' — оставляю null.
+
+======================================================================
+[q07] (multi_document) Как менялись отношения Гарри и Снегга на протяжении всех семи книг?
+Ожидаемый ответ (подсказка): От неприязни и недоверия к пониманию истинной роли Снегга (защитника Гарри) после Даров Смерти
+======================================================================
+  1. книга 1, Глава 13 — Николас Фламель  [hp1_ch13]
+     Возможно, Гарри это просто казалось, или он сам это придумал, но он натыкался на Снегга повсюду, куд...
+  2. книга 4, Глава 12 — Турнир Трёх Волшебников  [hp4_ch12]
+     Ещё ни один преподаватель защиты от Тёмных искусств не продержался у них больше трёх семестров. Гарр...
+  3. книга 6, Глава 28 — Бегство Принца-полукровки  [hp6_ch28]
+     Гарри почувствовал, как под его щекой задрожала земля, — это брат с сестрой, а с ними и огромный Пож...
+  4. книга 4, Глава 18 — Сколько весят волшебные палочки  [hp4_ch18]
+     В ушах у Гарри звенело. Такая несправедливость! Заклясть бы самого Снегга. Пусть рассыплется на тыся...
+  5. книга 6, Глава 28 — Бегство Принца-полукровки  [hp6_ch28]
+     Проскочив последние десять ступеней винтовой лестницы, Гарри замер на месте и поднял над собой руку ...
+  6. книга 6, Глава 8 — Снегг торжествует  [hp6_ch08]
+     — Хагрид, как и Поттер, опоздал на пир по случаю начала учебного года, так что я получил сообщение в...
+  7. книга 7, Глава 32 — Бузинная палочка  [hp7_ch32]
+     Гермиона вложила в его дрожащую руку наколдованный из воздуха флакон. Мановением палочки Гарри напра...
+  8. книга 6, Глава 16 — Очень холодное рождество  [hp6_ch16]
+     — А как я мог услышать? В том-то вся и штука, он отказался сообщить это Снеггу. Секунду-другую оба м...
+  9. книга 5, Глава 37 — Утраченное пророчество  [hp5_ch37]
+     — Из-за Снегга всё стало только хуже, после его уроков мой шрам всегда болел сильнее… — Гарри вспомн...
+  10. книга 1, Глава 11 — Квиддич  [hp1_ch11]
+     С тех пор как Гарри и Рон спасли Гермиону от горного тролля, она стала куда спокойнее относиться к н...
+
+Номера правильных (через запятую), Enter=пропустить, 'none'=не найдено: 1, 3, 7
+Сохранено: ['hp1_ch13', 'hp6_ch28', 'hp7_ch32']
+
+======================================================================
+[q08] (multi_document) Как раскрывается история крестражей на протяжении серии?
+Ожидаемый ответ (подсказка): Постепенно, начиная с дневника Реддла во 2 книге и заканчивая полным списком и уничтожением в 6-7 книгах
+======================================================================
+  1. книга 6, Глава 23 — Крестражи  [hp6_ch23]
+     Похоже на то, что процесс создания крестражей он приберегал для смертей, имевших для него особое зна...
+  2. книга 6, Глава 30 — Белая гробница  [hp6_ch30]
+     Он не испытывал больше чувств, так часто обуревавших его в прошлом — волнения, любопытства, жгучей ж...
+  3. книга 6, Глава 23 — Крестражи  [hp6_ch23]
+     — Именно так я и думаю, — ответил Дамблдор. — Но, к сожалению, нам это ничего не даёт, поскольку он ...
+  4. книга 6, Глава 23 — Крестражи  [hp6_ch23]
+     — Совершенно справедливо, — кивнул Дамблдор. — Но неужели ты не понимаешь, Гарри, — если он хотел, ч...
+  5. книга 7, Глава 6 — Упырь в пижаме  [hp7_ch06]
+     — Но тогда зачем же он выспрашивал у Слизнорта, как изготовить крестраж? — спросил Рон. — К Слизнорт...
+  6. книга 6, Глава 23 — Крестражи  [hp6_ch23]
+     Но теперь, Гарри, когда ты раздобыл важнейшее воспоминание, мы подошли к тайне, которая позволит уни...
+  7. книга 6, Глава 23 — Крестражи  [hp6_ch23]
+     — Как тебе известно, я уже долгие годы трачу немало сил на то, чтобы по возможности больше узнать о ...
+  8. книга 7, Глава 6 — Упырь в пижаме  [hp7_ch06]
+     — Или она, — вставила Гермиона. — Да кто угодно, — сказал Рон. — Тогда у нас будет одним делом меньш...
+  9. книга 7, Глава 14 — Вор  [hp7_ch14]
+     Лесную тишину нарушали только разрозненные звуки, похожие на хруст сучьев. Гарри думал, что звуки эт...
+  10. книга 7, Глава 6 — Упырь в пижаме  [hp7_ch06]
+     — Ладно, — сказал Рон, — допустим, нам удастся разломать штуковину, в которой живёт кусочек его души...
+
+Номера правильных (через запятую), Enter=пропустить, 'none'=не найдено: 1,5
+Сохранено: ['hp6_ch23', 'hp7_ch06']
+
+======================================================================
+[q09] (multi_document) Как менялась роль Сириуса Блэка в жизни Гарри от 3 к 5 книге?
+Ожидаемый ответ (подсказка): От опасного беглеца и подозреваемого предателя к крёстному отцу и близкому человеку, погибшему в Ордене Феникса
+======================================================================
+  1. книга 7, Глава 10 — Рассказ Кикимера  [hp7_ch10]
+     На площадку третьего этажа выходила дверь спальни, в которой Гарри и Рон ночевали, когда были здесь ...
+  2. книга 5, Глава 24 — Окклюменция  [hp5_ch24]
+     Кикимер, как выяснилось, прятался на чердаке. Нашёл его Сириус; домовик весь был в пыли и, несомненн...
+  3. книга 5, Глава 5 — Орден Феникса  [hp5_ch05]
+     — С твоей… — Да-да, с моей дражайшей престарелой матушкой, — сказал Сириус. — Мы хотели её убрать на...
+  4. книга 6, Глава 3 — Будет — не будет  [hp6_ch03]
+     — Видишь ли, — сказал Дамблдор, как будто не замечая бормотания дяди Вернона, которого упорный бокал...
+  5. книга 3, Глава 18 — Лунатик, Бродяга, Сохатый и Хвост  [hp3_ch18]
+     — Помнишь, я тебе говорил, что Гремучую иву посадили в тот год, когда я поступил в Хогвартс. Дело в ...
+  6. книга 3, Глава 4 — Дырявый котёл  [hp3_ch04]
+     Несколько дней Гарри привыкал к неведомой доселе свободе. Когда ещё он просыпался и завтракал не по ...
+  7. книга 6, Глава 4 — Гораций Слизнорт  [hp6_ch04]
+     — Хмф. Да, ну-ну. Безусловно, учителям не полагается заводить любимчиков, но она была одной из моих ...
+  8. книга 4, Глава 22 — Неожиданная задача  [hp4_ch22]
+     Но в целом, должен был признаться Гарри, несмотря на неотвратимо надвигающийся бал, жизнь его решите...
+  9. книга 4, Глава 36 — Пути расходятся  [hp4_ch36]
+     Гарри описал, как призраки кружили по краю золотой паутины, как Волан-де-Морт явно их боялся, как те...
+  10. книга 4, Глава 19 — Венгерская хвосторога  [hp4_ch19]
+     Гарри скинул мантию-невидимку и рухнул в кресло рядом с камином. В гостиной царил полумрак, освещало...
+
+Номера правильных (через запятую), Enter=пропустить, 'none'=не найдено: 3, 5
+Сохранено: ['hp5_ch05', 'hp3_ch18']
+
+======================================================================
+[q10] (multi_document) Какие события связывают Тайную комнату (2 книга) и финал серии?
+Ожидаемый ответ (подсказка): Дневник Реддла как крестраж, василиск и клык василиска, использованный позже для уничтожения других крестражей
+======================================================================
+  1. книга 5, Глава 37 — Утраченное пророчество  [hp5_ch37]
+     — В Отделе тайн есть комнатка, которую всегда держат запертой, — сказал Дамблдор. — В ней хранится с...
+  2. книга 2, Глава 16 — Тайная комната  [hp2_ch16]
+     — Зря вы тогда допустили, чтобы профессор Снегг научил нас этому приёму! Локонс, сидя на полу, съёжи...
+  3. книга 2, Глава 9 — Слова на стене  [hp2_ch09]
+     — Просто беда, — сказал Рон, убрав рулетку. Свиток тут же свернулся. — Не хватает целых двадцати сан...
+  4. книга 2, Глава 13 — Волшебный дневник  [hp2_ch13]
+     — Да за что угодно. — Рон поднял глаза к потолку. — Может, набрал тридцать С. О. В. или спас професс...
+  5. книга 5, Глава 32 — Из огня да в полымя  [hp5_ch32]
+     Он повёл их по коридору второго этажа. Отыскав пустую классную комнату, он нырнул туда и, как только...
+  6. книга 2, Глава 11 — Дуэльный клуб  [hp2_ch11]
+     Сидевшие на корточках Рон с Гермионой удивлённо подняли головы. И Гарри подробно рассказал всё, что ...
+  7. книга 2, Глава 9 — Слова на стене  [hp2_ch09]
+     — Ну, хорошо. — Бинс даже растерялся. — Дайте-ка вспомнить... Тайная комната... гм, гм... Комната та...
+  8. книга 2, Глава 15 — Арагог  [hp2_ch15]
+     Значит, в замке всё-таки прячется чудовище. Оно среди монстров что-то вроде Волан-де-Морта среди вол...
+  9. книга 6, Глава 23 — Крестражи  [hp6_ch23]
+     — Кусочек, и, может быть, не один, — ответил Дамблдор. — Ты же слышал Волан-де-Морта: его особенно и...
+  10. книга 5, Глава 18 — Отряд Дамблдора  [hp5_ch18]
+     — А сколько книг! — воскликнула Гермиона, водя пальцем по кожаным корешкам. «Путеводитель по практич...
+
+Номера правильных (через запятую), Enter=пропустить, 'none'=не найдено: 2, 4, 9
+Сохранено: ['hp2_ch16', 'hp2_ch13', 'hp6_ch23']
+
+======================================================================
+[q11] (multi_document) Как менялось отношение волшебного сообщества к Гарри как к 'Избранному' по ходу серии?
+Ожидаемый ответ (подсказка): От восхищения и любопытства к недоверию (5 книга) и снова к признанию героя
+======================================================================
+  1. книга 6, Глава 16 — Очень холодное рождество  [hp6_ch16]
+     — Понимаете, волшебники верят, что вы Избранный, — говорил Скримджер. — Они считают вас настоящим ге...
+  2. книга 4, Глава 2 — Шрам  [hp4_ch02]
+     Гарри был всего год от роду, когда Волан-де-Морт, самый могущественный Тёмный маг столетия, который ...
+  3. книга 3, Глава 4 — Дырявый котёл  [hp3_ch04]
+     Несколько дней Гарри привыкал к неведомой доселе свободе. Когда ещё он просыпался и завтракал не по ...
+  4. книга 2, Глава 10 — Бешеный мяч  [hp2_ch10]
+     В начале года Локонс устроил в классе схватку с корнуэльскими пикси, схватка кончилась не очень успе...
+  5. книга 2, Глава 1 — День рождения — хуже некуда  [hp2_ch01]
+     С самого начала летних каникул дядя Вернон обращался с ним, как с бомбой замедленного действия. Дело...
+  6. книга 7, Глава 10 — Рассказ Кикимера  [hp7_ch10]
+     Горе, владевшее им со времени смерти Дамблдора, стало теперь иным. Обвинения, которые он услышал на ...
+  7. книга 6, Глава 13 — Неизвестный Реддл  [hp6_ch13]
+     — А вы уже знали — тогда? — спросил Гарри. — Знал ли я, что вижу перед собой самого опасного Тёмного...
+  8. книга 6, Глава 11 — Гермиона приходит на помощь  [hp6_ch11]
+     — Пойдём к нему после квиддича, — пообещал Гарри. Он тоже скучал без Хагрида, хотя, как и Рон, счита...
+  9. книга 2, Глава 4 — «Флориш и Блоттс»  [hp2_ch04]
+     — Это ещё не всё. — Локонс слегка тряхнул Гарри, отчего очки у мальчика сползли на кончик носа. — Зн...
+  10. книга 5, Глава 23 — Рождество в изоляторе  [hp5_ch23]
+     «А когда он мною овладевает, — думал Гарри, — тогда превращаемся мы оба… Но это не объясняет, каким ...
+
+Номера правильных (через запятую), Enter=пропустить, 'none'=не найдено: 1, 9
+Сохранено: ['hp6_ch16', 'hp2_ch04']
+
+======================================================================
+[q12] (multi_document) Какую роль сыграла Выручай-комната в разных книгах серии?
+Ожидаемый ответ (подсказка): Место тренировок Отряда Дамблдора (5 книга), тайник крестража и место финальной битвы с Адским пламенем (7 книга)
+======================================================================
+  1. книга 6, Глава 21 — Непостижимая комната  [hp6_ch21]
+     — В Выручай-комнату! — воскликнул Гарри и хлопнул себя по лбу «Расширенным курсом зельеварения». Рон...
+  2. книга 5, Глава 18 — Отряд Дамблдора  [hp5_ch18]
+     Эльф радостно обернулся: — Только скажите, сэр Гарри Поттер! — Мне надо подыскать место, где могли б...
+  3. книга 5, Глава 18 — Отряд Дамблдора  [hp5_ch18]
+     — И если вам очень нужно в туалет, — перебил Гарри, вспомнив, что сказал на прошлогоднем Святочном б...
+  4. книга 7, Глава 30 — Северуса Снегга смещают с должности  [hp7_ch30]
+     Гарри остолбенел, увидев, что творилось в Выручай-комнате. Она была битком набита — народу оказалось...
+  5. книга 5, Глава 21 — Глазами змеи  [hp5_ch21]
+     — Спокойной ночи. Может, в следующий раз — если до этого дойдёт — она будет не такой печальной. Надо...
+  6. книга 7, Глава 29 — Исчезнувшая диадема  [hp7_ch29]
+     — Ну, расскажите же нам, что с вами было, — сказал Эрни. — Каких только не ходило слухов! Мы старали...
+  7. книга 6, Глава 21 — Непостижимая комната  [hp6_ch21]
+     — Ну так продолжай попытки, что тебе ещё остаётся? Короткая очередь учеников, тянувшаяся к Филчу, ко...
+  8. книга 6, Глава 24 — Сектумсемпра  [hp6_ch24]
+     Три раза он прошёлся вдоль голой стены. А когда открыл глаза, то наконец увидел дверь в Выручай-комн...
+  9. книга 5, Глава 27 — Кентавр и ябеда  [hp5_ch27]
+     — Долорес, — сказал Фадж с видом человека, решившего покончить с чем-то раз и навсегда, — сегодняшня...
+  10. книга 6, Глава 21 — Непостижимая комната  [hp6_ch21]
+     Гарри проводил её недовольным взглядом. Как только за Гермионой закрылась ведущая к спальням девочек...
+
+Номера правильных (через запятую), Enter=пропустить, 'none'=не найдено: 1, 2, 4, 6
+Сохранено: ['hp6_ch21', 'hp5_ch18', 'hp7_ch30', 'hp7_ch29']
+
+======================================================================
+[q13] (specific_info) Какое заклинание убивает?
+Ожидаемый ответ (подсказка): Авада Кедавра
+======================================================================
+  1. книга 2, Глава 9 — Слова на стене  [hp2_ch09]
+     лизерин наложил печать заклятия на Комнату. С тех пор в неё никто не может проникнуть, заклятие сним...
+  2. книга 6, Глава 28 — Бегство Принца-полукровки  [hp6_ch28]
+     — Ты посмел использовать против меня мои же заклинания, Поттер? Это я изобрёл их — я, Принц-полукров...
+  3. книга 5, Глава 35 — По ту сторону занавеса  [hp5_ch35]
+     На полу перед ними взметнулся фонтанчик каменной крошки и появилась выбоина — Невилл еле успел отдёр...
+  4. книга 6, Глава 28 — Бегство Принца-полукровки  [hp6_ch28]
+     Гарри почувствовал, как Сивый обмяк на нём, и, напрягая все силы, столкнул с себя оборотня и перекат...
+  5. книга 6, Глава 23 — Крестражи  [hp6_ch23]
+     «Я был вырван из тела, я стал меньше, чем дух, чем самое захудалое привидение… но всё-таки я был жив...
+  6. книга 5, Глава 35 — По ту сторону занавеса  [hp5_ch35]
+     Обе палочки, и Гарри, и Пожирателя смерти, вылетели у них из рук и поплыли по воздуху обратно ко вхо...
+  7. книга 6, Глава 29 — Плач Феникса  [hp6_ch29]
+     — Я краем глаза заметила, как он бежит к нам, но тут огромный Пожиратель смерти снова метнул в меня ...
+  8. книга 4, Глава 37 — Начало  [hp4_ch37]
+     — Ты на стороне проигравших, Поттер! Я предупреждал тебя! Я говорил тебе, что нужно тщательно выбира...
+  9. книга 7, Глава 22 — Дары Смерти  [hp7_ch22]
+     Между тем в Гэддли найдены мёртвыми в своём доме семья маглов из пяти человек. По утверждению маглов...
+  10. книга 6, Глава 28 — Бегство Принца-полукровки  [hp6_ch28]
+     В то самое мгновение, как спало наложенное на него Дамблдором парализующее заклинание, Гарри понял: ...
+
+Номера правильных (через запятую), Enter=пропустить, 'none'=не найдено: 8
+Сохранено: ['hp4_ch37']
+
+======================================================================
+[q15] (specific_info) Из чего сделана волшебная палочка Гарри Поттера?
+Ожидаемый ответ (подсказка): Остролист с пером феникса
+======================================================================
+  1. книга 1, Глава 5 — Косой переулок  [hp1_ch05]
+     — Ну хватит тебе, — ворчливо заметил Хагрид, пытаясь скрыть смущение — он явно был очень польщён. — ...
+  2. книга 3, Глава 1 — Совиная почта  [hp3_ch01]
+     Гарри Поттер — необычный мальчик во всех отношениях. Во-первых, он терпеть не может летние каникулы,...
+  3. книга 4, Глава 18 — Сколько весят волшебные палочки  [hp4_ch18]
+     Летом, три года назад, они вместе с Хагридом зашли в магазин мистера Олливандера купить волшебную па...
+  4. книга 7, Глава 24 — Мастер волшебных палочек  [hp7_ch24]
+     — О да, если вы настоящий волшебник, то можете направлять свою магию практически через любой инструм...
+  5. книга 6, Глава 8 — Снегг торжествует  [hp6_ch08]
+     Он попытался издать какой-нибудь звук, хотя бы захрипеть, но не смог. Тогда он вспомнил, что некотор...
+  6. книга 1, Глава 12 — Зеркало Еиналеж  [hp1_ch12]
+     У Гарри в жизни не было такого рождественского пира. На столе красовались сотни жирных жареных индее...
+  7. книга 2, Глава 1 — День рождения — хуже некуда  [hp2_ch01]
+     Сколько раз Гарри хотелось заклинанием отпереть клетку и послать друзьям с Буклей письмо. Но это сул...
+  8. книга 1, Глава 5 — Косой переулок  [hp1_ch05]
+     — Видите ли, мистер Поттер, я помню каждую палочку, которую продал. Все до единой. Внутри вашей пало...
+  9. книга 7, Глава 17 — Секрет Батильды  [hp7_ch17]
+     — Ты же не нарочно, — машинально ответил Гарри. Он чувствовал себя совершенно опустошённым, раздавле...
+  10. книга 7, Глава 24 — Мастер волшебных палочек  [hp7_ch24]
+     Мастер взял первую палочку и поднёс её к самым глазам. Повертел узловатыми пальцами, чуть согнул. — ...
+
+Номера правильных (через запятую), Enter=пропустить, 'none'=не найдено: 8, 3
+Сохранено: ['hp1_ch05', 'hp4_ch18']
+
+======================================================================
+[q16] (specific_info) Кто варил Оборотное зелье во 2 книге?
+Ожидаемый ответ (подсказка): Гермиона (для Гарри и Рона)
+======================================================================
+  1. книга 6, Глава 21 — Непостижимая комната  [hp6_ch21]
+     — Да, это странно, — нахмурился Гарри. — Я же слышал, как он говорил Крэббу: мол, то, чем он занимае...
+  2. книга 7, Глава 8 — Свадьба  [hp7_ch08]
+     Назавтра в три часа пополудни Гарри, Рон, Фред и Джордж стояли у разбитого в фруктовом саду огромног...
+  3. книга 6, Глава 9 — Принц-полукровка  [hp6_ch09]
+     — Очень хорошо, очень хорошо! — одобрил Слизнорт. — А теперь… — Он указал на котёл возле стола когте...
+  4. книга 2, Глава 10 — Бешеный мяч  [hp2_ch10]
+     — Да ладно тебе. — Рон вырвал у неё лист и протянул мадам Пинс. — Достанешь другой автограф. Локонс ...
+  5. книга 5, Глава 12 — Профессор Амбридж  [hp5_ch12]
+     В то время как все кругом наполняли колбы, Гарри, кипя, собирал вещи. Разве у него получилось хуже, ...
+  6. книга 5, Глава 13 — Вечера у Долорес  [hp5_ch13]
+     — Давайте сперва со Снеггом разберёмся, — предложил Рон, обмакнув перо в чернила. — «Свойства… лунно...
+  7. книга 6, Глава 9 — Принц-полукровка  [hp6_ch09]
+     — Ах да, профессор МакГонагалл что-то упоминала… Не волнуйтесь, не волнуйтесь ни о чём, мой милый ма...
+  8. книга 4, Глава 7 — Бэгмен и Крауч  [hp4_ch07]
+     — Это Катберт Мокридж, начальник Управления по связям с гоблинами… А вон Гилберт Уимпил из Комиссии ...
+  9. книга 1, Глава 8 — Специалист по волшебному зельеварению  [hp1_ch08]
+     Послышался смех. Гарри нервно оглянулся, чтобы увидеть, кто ещё над ним смеётся, кроме Малфоя и двух...
+  10. книга 5, Глава 31 — СОВ  [hp5_ch31]
+     Гермиона ходила насупленная почти весь уикенд. Впрочем, Гарри с Роном некогда было обращать на это в...
+
+Номера правильных (через запятую), Enter=пропустить, 'none'=не найдено: none
+Отмечено как 'нет подходящего среди показанных' — оставляю null.
+
+======================================================================
+[q17] (specific_info) Какого цвета галстук у факультета Слизерин?
+Ожидаемый ответ (подсказка): Зелёный с серебром
+======================================================================
+  1. книга 2, Глава 5 — Гремучая ива  [hp2_ch05]
+     В начале каждого учебного года эта древняя Шляпа, грязная и вся в заплатках, шептала новеньким, кто ...
+  2. книга 1, Глава 17 — Человек с двумя лицами  [hp1_ch17]
+     — Итак, ещё один год позади! — радостно воскликнул Дамблдор. — Но перед тем, как мы начнём наш фанта...
+  3. книга 2, Глава 11 — Дуэльный клуб  [hp2_ch11]
+     — Не всё равно. Ведь на змеином языке знаешь кто говорил? Салазар Слизерин. Именно поэтому змея на г...
+  4. книга 3, Глава 15 — Финальный матч  [hp3_ch15]
+     Они молча переоделись в алую спортивную форму. Гарри было интересно, как чувствуют себя остальные; л...
+  5. книга 2, Глава 9 — Слова на стене  [hp2_ch09]
+     — Ну, хорошо. — Бинс даже растерялся. — Дайте-ка вспомнить... Тайная комната... гм, гм... Комната та...
+  6. книга 6, Глава 4 — Гораций Слизнорт  [hp6_ch04]
+     — Хмф. Да, ну-ну. Безусловно, учителям не полагается заводить любимчиков, но она была одной из моих ...
+  7. книга 4, Глава 12 — Турнир Трёх Волшебников  [hp4_ch12]
+     Стол в противоположном конце холла забурлил от восторга, Гарри видел, как хлопал Малфой, когда Бэддо...
+  8. книга 7, Глава 32 — Бузинная палочка  [hp7_ch32]
+     Повсюду, на лестницах и в вестибюле, шли поединки. Пожиратели смерти заполонили всё здание. Вот у вх...
+  9. книга 6, Глава 30 — Белая гробница  [hp6_ch30]
+     Все покинули свои скамьи почти в полном молчании. Во главе колонны слизеринцев Гарри заметил Слизнор...
+  10. книга 7, Девятнадцать лет спустя  [hp7_ch37]
+     — Альбус Северус, — сказал Гарри тихо, так что слышать их могла только Джинни, а у неё хватило такта...
+
+Номера правильных (через запятую), Enter=пропустить, 'none'=не найдено: none
+Отмечено как 'нет подходящего среди показанных' — оставляю null.
+
+======================================================================
+[q18] (specific_info) Кто был профессором Защиты от Тёмных искусств на 3 курсе Гарри?
+Ожидаемый ответ (подсказка): Римус Люпин
+======================================================================
+  1. книга 5, Глава 29 — Выбор профессии  [hp5_ch29]
+     Словно для того, чтобы подчеркнуть важность надвигающихся экзаменов, незадолго до окончания каникул ...
+  2. книга 5, Глава 15 — Генеральный инспектор Хогвартса  [hp5_ch15]
+     Она отошла, а профессор Трелони, с вздымающейся грудью, будто приросла к полу. Гарри перехватил взгл...
+  3. книга 6, Глава 8 — Снегг торжествует  [hp6_ch08]
+     — …а школьный смотритель, мистер Филч, просил меня объявить о категорическом запрете на любые шуточн...
+  4. книга 5, Глава 12 — Профессор Амбридж  [hp5_ch12]
+     — Хочу, — сказала Гермиона. — Не в том ли весь смысл защиты от Тёмных искусств, чтобы научиться прим...
+  5. книга 5, Глава 15 — Генеральный инспектор Хогвартса  [hp5_ch15]
+     Наступило молчание. Ночной ветерок шевельнул окна за спиной Рона, пламя в камине качнулось. — Что — ...
+  6. книга 5, Глава 31 — СОВ  [hp5_ch31]
+     В среду они сдали экзамен по травологии (если не считать лёгкого укуса зубастой герани, для Гарри вс...
+  7. книга 4, Глава 12 — Турнир Трёх Волшебников  [hp4_ch12]
+     Ещё ни один преподаватель защиты от Тёмных искусств не продержался у них больше трёх семестров. Гарр...
+  8. книга 5, Глава 25 — Жук на ниточке  [hp5_ch25]
+     Изменилось не только настроение учеников. То и дело можно было встретить в коридорах двух-трёх профе...
+  9. книга 6, Глава 11 — Гермиона приходит на помощь  [hp6_ch11]
+     Как и предсказывала Гермиона, свободные уроки оказались для шестикурсников не временем блаженного бе...
+  10. книга 5, Глава 16 — В «Кабаньей голове»  [hp5_ch16]
+     — Так, — сказала Гермиона; от возбуждения её голос звучал выше обычного. — Ну, значит… Теперь всеобщ...
+
+Номера правильных (через запятую), Enter=пропустить, 'none'=не найдено: none
+Отмечено как 'нет подходящего среди показанных' — оставляю null.
+
+======================================================================
+[q19] (context_understanding) Почему Дамблдор доверял Снеггу, несмотря на его прошлое Пожирателя смерти?
+Ожидаемый ответ (подсказка): Требует понимания контекста — Снегг действовал как двойной агент из любви к Лили Поттер
+======================================================================
+  1. книга 6, Глава 2 — Паучий тупик  [hp6_ch02]
+     — Да, Беллатриса, я остался, — сказал Снегг, в первый раз за всё время разговора начиная проявлять н...
+  2. книга 6, Глава 2 — Паучий тупик  [hp6_ch02]
+     — И после всего этого мы должны поверить, что Дамблдор ни разу тебя не заподозрил? — спросила Беллат...
+  3. книга 6, Глава 29 — Плач Феникса  [hp6_ch29]
+     — Но Дамблдор клялся, что он на нашей стороне! — прошептала Тонкс. — Я всегда думала, что Дамблдору ...
+  4. книга 4, Глава 37 — Начало  [hp4_ch37]
+     А вот мадам Максим была на месте. Она сидела рядом с Хагридом, и они о чём-то тихо переговаривались....
+  5. книга 4, Глава 27 — Возвращение Бродяги  [hp4_ch27]
+     — Как что? — воскликнул Рон. Сириус покачал головой: — Нет, если Крауч подозревает Снегга, почему не...
+  6. книга 6, Глава 28 — Бегство Принца-полукровки  [hp6_ch28]
+     Гарри почувствовал, как под его щекой задрожала земля, — это брат с сестрой, а с ними и огромный Пож...
+  7. книга 5, Глава 37 — Утраченное пророчество  [hp5_ch37]
+     — Из-за Снегга всё стало только хуже, после его уроков мой шрам всегда болел сильнее… — Гарри вспомн...
+  8. книга 6, Глава 17 — Провалы в памяти  [hp6_ch17]
+     — Да, сэр. Я подслушал их разговор на вечеринке у профессора Слизнорта… По правде говоря, я за ними ...
+  9. книга 6, Глава 29 — Плач Феникса  [hp6_ch29]
+     — Это моя вина! — вдруг сказала профессор МакГонагалл, скручивая пальцами носовой платок. Казалось, ...
+  10. книга 4, Глава 27 — Возвращение Бродяги  [hp4_ch27]
+     — Скажу, что они оба правы, — ответил тот, задумчиво глядя на Рона и Гермиону. — Я и сам всё время д...
+
+Номера правильных (через запятую), Enter=пропустить, 'none'=не найдено: 1, 3
+Сохранено: ['hp6_ch02', 'hp6_ch29']
+
+======================================================================
+[q20] (context_understanding) Почему Волан-де-Морт не мог прикоснуться к Гарри в первой книге?
+Ожидаемый ответ (подсказка): Защита, оставленная жертвой матери Гарри (древняя магия любви)
+======================================================================
+  1. книга 4, Глава 14 — Непростительные заклятия  [hp4_ch14]
+     Как Волан-де-Морт первым убил его отца. Как Джеймс Поттер пытался задержать его и кричал жене, чтобы...
+  2. книга 7, Глава 35 — Кингс-Кросс  [hp7_ch35]
+     Волан-де-Морт, как ты теперь знаешь, сам того не желая, вдвойне упрочил связь между вами, возвративш...
+  3. книга 7, Глава 34 — Снова в лесу  [hp7_ch34]
+     Волан-де-Морт поднял палочку. Голова его была по-прежнему склонена набок, как у мальчишки, с любопыт...
+  4. книга 4, Глава 34 — «Приори Инкантатем»  [hp4_ch34]
+     К Гарри, как из прошлой жизни, пришло смутное воспоминание о том, что два года назад он очень недолг...
+  5. книга 5, Глава 37 — Утраченное пророчество  [hp5_ch37]
+     — Возможно, это было бы логичнее, — согласился Дамблдор, — но ты забываешь, что Волан-де-Морт знал л...
+  6. книга 3, Глава 1 — Совиная почта  [hp3_ch01]
+     Гарри выглядит младше своих лет. Он худенький, да и роста невысокого, хотя за год всё-таки подрос. В...
+  7. книга 5, Глава 37 — Утраченное пророчество  [hp5_ch37]
+     — Да, — тихо признался Гарри. — Да, меня это удивляло. — Видишь ли… я боялся, что недалёк тот час, к...
+  8. книга 6, Глава 23 — Крестражи  [hp6_ch23]
+     — Гарри, Гарри, так ведь это лишь потому, что Волан-де-Морт совершил серьёзнейшую ошибку, начав дейс...
+  9. книга 7, Глава 34 — Снова в лесу  [hp7_ch34]
+     Все молчали. Казалось, они испуганы не меньше Гарри, чьё сердце колотилось о рёбра с такой силой, сл...
+  10. книга 4, Глава 33 — Пожиратели смерти  [hp4_ch33]
+     Волан-де-Морт отвёл взгляд от Гарри и принялся осматривать собственное тело. Его кисти напоминали бо...
+
+Номера правильных (через запятую), Enter=пропустить, 'none'=не найдено: 5, 7
+Сохранено: ['hp5_ch37', 'hp5_ch37']
+
+======================================================================
+[q21] (context_understanding) Почему пророчество о Гарри и Волан-де-Морте могло относиться и к Невиллу Лонгботтому?
+Ожидаемый ответ (подсказка): Оба родились в конце июля у родителей, трижды бросавших вызов Волан-де-Морту; Волан-де-Морт сам выбрал Гарри целью
+======================================================================
+  1. книга 5, Глава 37 — Утраченное пророчество  [hp5_ch37]
+     — Профессор Дамблдор… — наконец очень тихо произнёс Гарри, поскольку Дамблдор, так и не оторвавший в...
+  2. книга 6, Глава 23 — Крестражи  [hp6_ch23]
+     — Должен? — воскликнул Дамблдор. — Разумеется, должен! Но не потому, что так говорится в пророчестве...
+  3. книга 5, Глава 37 — Утраченное пророчество  [hp5_ch37]
+     — Боюсь, — Дамблдор выговаривал слова медленно, будто каждое из них требовало от него огромных усили...
+  4. книга 6, Глава 23 — Крестражи  [hp6_ch23]
+     — Да, всего-навсего любовь, — ответил Дамблдор. — Но только не забывай о том, что сказанное в пророч...
+  5. книга 6, Глава 4 — Гораций Слизнорт  [hp6_ch04]
+     — Сказано истинным сыном твоих мамы и папы и истинным крестником Сириуса! — сказал Дамблдор, одобрит...
+  6. книга 6, Глава 7 — Клуб Слизней  [hp6_ch07]
+     — Ну, мы тоже не сражались с ним лицом к лицу, — сказал Невилл, выбираясь из-под сиденья с волосами,...
+  7. книга 5, Глава 37 — Утраченное пророчество  [hp5_ch37]
+     — Профессор Снегг обнаружил, — возобновил свой рассказ Дамблдор, — что тебе уже не первый месяц снит...
+  8. книга 5, Глава 23 — Рождество в изоляторе  [hp5_ch23]
+     «А когда он мною овладевает, — думал Гарри, — тогда превращаемся мы оба… Но это не объясняет, каким ...
+  9. книга 4, Глава 2 — Шрам  [hp4_ch02]
+     Спящими Дурсли устраивали Гарри больше всего, да и бодрствующие они вряд ли пришли бы ему на помощь....
+  10. книга 5, Глава 37 — Утраченное пророчество  [hp5_ch37]
+     Но в прошлом году ты выбрался из лабиринта, видел смерть Седрика Дигтори и едва не погиб сам… а я оп...
+
+Номера правильных (через запятую), Enter=пропустить, 'none'=не найдено: 1,2,4
+Сохранено: ['hp5_ch37', 'hp6_ch23', 'hp6_ch23']
+
+======================================================================
+[q22] (context_understanding) Почему Гарри смог выжить после удара Авада Кедавра от Волан-де-Морта в финале?
+Ожидаемый ответ (подсказка): Требует понимания концепции крестражей и того, что Гарри невольно стал одним из них
+======================================================================
+  1. книга 4, Глава 14 — Непростительные заклятия  [hp4_ch14]
+     Как Волан-де-Морт первым убил его отца. Как Джеймс Поттер пытался задержать его и кричал жене, чтобы...
+  2. книга 4, Глава 34 — «Приори Инкантатем»  [hp4_ch34]
+     К Гарри, как из прошлой жизни, пришло смутное воспоминание о том, что два года назад он очень недолг...
+  3. книга 1, Глава 11 — Квиддич  [hp1_ch11]
+     Гарри по-настоящему повезло, что Гермиона стала его другом. Если бы не она, ему не удалось бы выполн...
+  4. книга 4, Глава 34 — «Приори Инкантатем»  [hp4_ch34]
+     Гарри держал Седрика за запястье. Его и Волан-де-Морта разделял теперь всего один памятник, но тело ...
+  5. книга 7, Глава 34 — Снова в лесу  [hp7_ch34]
+     Вот она наконец, правда. Уткнувшись лицом в пыльный ковёр кабинета, где он недавно прилежно учился т...
+  6. книга 4, Глава 34 — «Приори Инкантатем»  [hp4_ch34]
+     В любом случае, дольше удерживать палочку он уже не мог. Он сильно рванул её вверх, и золотая нить п...
+  7. книга 7, Глава 36 — Изъян в плане  [hp7_ch36]
+     — Гарри Поттер мёртв. Он был убит при попытке к бегству. Он пытался спасти свою жизнь, пока вы тут п...
+  8. книга 7, Глава 17 — Секрет Батильды  [hp7_ch17]
+     Заклятие разнесло в пыль зеркальную створку платяного шкафа и заметалось по комнате, отскакивая от с...
+  9. книга 4, Глава 34 — «Приори Инкантатем»  [hp4_ch34]
+     Хвост подошёл к Гарри, который пытался встать на ноги, прежде чем его отвяжут и он рухнет на землю. ...
+  10. книга 7, Глава 36 — Изъян в плане  [hp7_ch36]
+     Начался хаос. Стрелы кентавров рассеивали Пожирателей смерти, все, кто мог, бежали от топчущих вслеп...
+
+Номера правильных (через запятую), Enter=пропустить, 'none'=не найдено: 5,7
+Сохранено: ['hp7_ch34', 'hp7_ch36']
+
+======================================================================
+[q23] (context_understanding) Почему Букля важна как символ на протяжении серии?
+Ожидаемый ответ (подсказка): Её гибель в 7 книге символизирует потерю Гарри последней связи с прежней, более безопасной жизнью
+======================================================================
+  1. книга 1, Глава 6 — Путешествие с платформы номер девять и три четверти  [hp1_ch06]
+     Тот август, что Гарри прожил у Дурслей перед тем, как уехать в Хогвартс, нельзя было назвать особенн...
+  2. книга 3, Глава 3 — Автобус «Ночной Рыцарь»  [hp3_ch03]
+     — Ну и ночка выдалась, Букля, — зевнул Гарри. Не сняв очков, он повалился на подушку и крепко уснул....
+  3. книга 4, Глава 15 — Шармбатон и Дурмстранг  [hp4_ch15]
+     — А мы были, — перебил её Джордж и ткнул Фреда в бок. — И неоднократно. Воровали еду. И видели домов...
+  4. книга 4, Глава 14 — Непростительные заклятия  [hp4_ch14]
+     Наступила пауза. Гермиона смотрела на друзей, сияя как именинница, а Гарри сидел, не зная, то ли зли...
+  5. книга 6, Глава 3 — Будет — не будет  [hp6_ch03]
+     Гарри выучил письмо наизусть, но всё равно украдкой поглядывал на него каждые пять минут, начиная с ...
+  6. книга 5, Глава 3 — Защитный отряд  [hp5_ch03]
+     Проходя мимо школьного чемодана, он пнул его ногой, однако не только не облегчил этим злость, но поч...
+  7. книга 5, Глава 17 — Декрет об образовании № 24  [hp5_ch17]
+     — Да. — Гарри бережно снял с плеча Буклю. — Она прилетела позже других почтовых сов и у неё что-то с...
+  8. книга 5, Глава 17 — Декрет об образовании № 24  [hp5_ch17]
+     Граббли-Дёрг дала Гарри письмо и ушла с Буклей в комнату. Сова смотрела на Гарри так, словно не могл...
+  9. книга 3, Глава 14 — Месть Снегга  [hp3_ch14]
+     Говорить дважды не надо было. Невилл схватил письмо и, держа его перед собой как бомбу, пулей вылете...
+  10. книга 3, Глава 1 — Совиная почта  [hp3_ch01]
+     Гарри закрыл чернильницу, встал с кровати и вытащил из-под неё старую наволочку. Сунул в неё фонарик...
+
+Номера правильных (через запятую), Enter=пропустить, 'none'=не найдено: none
+Отмечено как 'нет подходящего среди показанных' — оставляю null.
+
+======================================================================
+[q24] (context_understanding) Почему Дары Смерти важны для финального противостояния с Волан-де-Мортом?
+Ожидаемый ответ (подсказка): Требует понимания легенды о трёх Дарах и того, как Гарри становится их истинным хозяином
+======================================================================
+  1. книга 6, Глава 23 — Крестражи  [hp6_ch23]
+     — Гарри, Гарри, так ведь это лишь потому, что Волан-де-Морт совершил серьёзнейшую ошибку, начав дейс...
+  2. книга 7, Глава 35 — Кингс-Кросс  [hp7_ch35]
+     Волан-де-Морт, как ты теперь знаешь, сам того не желая, вдвойне упрочил связь между вами, возвративш...
+  3. книга 6, Глава 23 — Крестражи  [hp6_ch23]
+     — Очень важно, чтобы ты понимал это, Гарри! — сказал Дамблдор, поднимаясь из кресла и начиная прохаж...
+  4. книга 4, Глава 34 — «Приори Инкантатем»  [hp4_ch34]
+     Волан-де-Морт снова поднял палочку, но на этот раз Гарри был готов; долгие тренировки по квиддичу да...
+  5. книга 7, Глава 34 — Снова в лесу  [hp7_ch34]
+     Вот она наконец, правда. Уткнувшись лицом в пыльный ковёр кабинета, где он недавно прилежно учился т...
+  6. книга 6, Глава 23 — Крестражи  [hp6_ch23]
+     — Коротко говоря, тебя защищает твоя способность любить! — громко произнёс Дамблдор. — И это единств...
+  7. книга 6, Глава 23 — Крестражи  [hp6_ch23]
+     Затем, два года спустя, ты рассказал мне, что в ночь, когда Волан-де-Морт возродился, он обратился к...
+  8. книга 6, Глава 5 — Слишком много Флегмы  [hp6_ch05]
+     Гарри снова посмотрел на свои оценки. На лучшее он не мог и рассчитывать. Только чуть-чуть кольнуло ...
+  9. книга 4, Глава 37 — Начало  [hp4_ch37]
+     — Каждый гость этого зала, — сказал Дамблдор, и его взгляд задержался на учениках из Дурмстранга, — ...
+  10. книга 4, Глава 34 — «Приори Инкантатем»  [hp4_ch34]
+     К Гарри, как из прошлой жизни, пришло смутное воспоминание о том, что два года назад он очень недолг...
+
+Номера правильных (через запятую), Enter=пропустить, 'none'=не найдено: 2, 5
+Сохранено: ['hp7_ch35', 'hp7_ch34']
+
+Готово. Осталось незаполненных: 5
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\evaluation>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" run_all_experiments.py
+""C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe"run_all_experiments.py" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\evaluation>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" run_all_experiments.py
+
+######################################################################
+Модель: intfloat/multilingual-e5-base
+######################################################################
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 418.32it/s]
+[!] Пропущено 11 вопросов без заполненных relevant_document_ids (в т.ч. все вопросы типа 'no_answer' — это ожидаемо):
+    - q06 (simple_fact): Как называется вид спорта на мётлах в мире волшебников?  <- ЗАПОЛНИ relevant_document_ids
+    - q16 (specific_info): Кто варил Оборотное зелье во 2 книге?  <- ЗАПОЛНИ relevant_document_ids
+    - q17 (specific_info): Какого цвета галстук у факультета Слизерин?  <- ЗАПОЛНИ relevant_document_ids
+    - q18 (specific_info): Кто был профессором Защиты от Тёмных искусств на 3 курсе Гарри?  <- ЗАПОЛНИ relevant_document_ids
+    - q23 (context_understanding): Почему Букля важна как символ на протяжении серии?  <- ЗАПОЛНИ relevant_document_ids
+
+============================================================
+fixed_size / e5-base
+============================================================
+Оценено вопросов: 19
+MRR: 0.5079
+  K=3   Recall@K=0.5789  Precision@K=0.3158
+  K=5   Recall@K=0.6842  Precision@K=0.2842
+  K=10  Recall@K=0.8947  Precision@K=0.2263
+  K=20  Recall@K=0.8947  Precision@K=0.1816
+[!] Пропущено 11 вопросов без заполненных relevant_document_ids (в т.ч. все вопросы типа 'no_answer' — это ожидаемо):
+    - q06 (simple_fact): Как называется вид спорта на мётлах в мире волшебников?  <- ЗАПОЛНИ relevant_document_ids
+    - q16 (specific_info): Кто варил Оборотное зелье во 2 книге?  <- ЗАПОЛНИ relevant_document_ids
+    - q17 (specific_info): Какого цвета галстук у факультета Слизерин?  <- ЗАПОЛНИ relevant_document_ids
+    - q18 (specific_info): Кто был профессором Защиты от Тёмных искусств на 3 курсе Гарри?  <- ЗАПОЛНИ relevant_document_ids
+    - q23 (context_understanding): Почему Букля важна как символ на протяжении серии?  <- ЗАПОЛНИ relevant_document_ids
+
+============================================================
+fixed_size_overlap / e5-base
+============================================================
+Оценено вопросов: 19
+MRR: 0.4923
+  K=3   Recall@K=0.5789  Precision@K=0.3158
+  K=5   Recall@K=0.7368  Precision@K=0.3053
+  K=10  Recall@K=0.7895  Precision@K=0.2632
+  K=20  Recall@K=0.8947  Precision@K=0.2026
+[!] Пропущено 11 вопросов без заполненных relevant_document_ids (в т.ч. все вопросы типа 'no_answer' — это ожидаемо):
+    - q06 (simple_fact): Как называется вид спорта на мётлах в мире волшебников?  <- ЗАПОЛНИ relevant_document_ids
+    - q16 (specific_info): Кто варил Оборотное зелье во 2 книге?  <- ЗАПОЛНИ relevant_document_ids
+    - q17 (specific_info): Какого цвета галстук у факультета Слизерин?  <- ЗАПОЛНИ relevant_document_ids
+    - q18 (specific_info): Кто был профессором Защиты от Тёмных искусств на 3 курсе Гарри?  <- ЗАПОЛНИ relevant_document_ids
+    - q23 (context_understanding): Почему Букля важна как символ на протяжении серии?  <- ЗАПОЛНИ relevant_document_ids
+
+============================================================
+paragraph / e5-base
+============================================================
+Оценено вопросов: 19
+MRR: 0.5924
+  K=3   Recall@K=0.6316  Precision@K=0.3684
+  K=5   Recall@K=0.7368  Precision@K=0.3263
+  K=10  Recall@K=0.9474  Precision@K=0.2895
+  K=20  Recall@K=0.9474  Precision@K=0.2079
+
+######################################################################
+Модель: paraphrase-multilingual-mpnet-base-v2
+######################################################################
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 331.55it/s]
+[!] Пропущено 11 вопросов без заполненных relevant_document_ids (в т.ч. все вопросы типа 'no_answer' — это ожидаемо):
+    - q06 (simple_fact): Как называется вид спорта на мётлах в мире волшебников?  <- ЗАПОЛНИ relevant_document_ids
+    - q16 (specific_info): Кто варил Оборотное зелье во 2 книге?  <- ЗАПОЛНИ relevant_document_ids
+    - q17 (specific_info): Какого цвета галстук у факультета Слизерин?  <- ЗАПОЛНИ relevant_document_ids
+    - q18 (specific_info): Кто был профессором Защиты от Тёмных искусств на 3 курсе Гарри?  <- ЗАПОЛНИ relevant_document_ids
+    - q23 (context_understanding): Почему Букля важна как символ на протяжении серии?  <- ЗАПОЛНИ relevant_document_ids
+
+============================================================
+fixed_size / paraphrase-mpnet-base-v2
+============================================================
+Оценено вопросов: 19
+MRR: 0.1932
+  K=3   Recall@K=0.2632  Precision@K=0.1053
+  K=5   Recall@K=0.3158  Precision@K=0.0947
+  K=10  Recall@K=0.5263  Precision@K=0.0789
+  K=20  Recall@K=0.6316  Precision@K=0.0789
+[!] Пропущено 11 вопросов без заполненных relevant_document_ids (в т.ч. все вопросы типа 'no_answer' — это ожидаемо):
+    - q06 (simple_fact): Как называется вид спорта на мётлах в мире волшебников?  <- ЗАПОЛНИ relevant_document_ids
+    - q16 (specific_info): Кто варил Оборотное зелье во 2 книге?  <- ЗАПОЛНИ relevant_document_ids
+    - q17 (specific_info): Какого цвета галстук у факультета Слизерин?  <- ЗАПОЛНИ relevant_document_ids
+    - q18 (specific_info): Кто был профессором Защиты от Тёмных искусств на 3 курсе Гарри?  <- ЗАПОЛНИ relevant_document_ids
+    - q23 (context_understanding): Почему Букля важна как символ на протяжении серии?  <- ЗАПОЛНИ relevant_document_ids
+
+============================================================
+fixed_size_overlap / paraphrase-mpnet-base-v2
+============================================================
+Оценено вопросов: 19
+MRR: 0.2142
+  K=3   Recall@K=0.2105  Precision@K=0.0702
+  K=5   Recall@K=0.4211  Precision@K=0.0947
+  K=10  Recall@K=0.5789  Precision@K=0.0947
+  K=20  Recall@K=0.5789  Precision@K=0.0500
+[!] Пропущено 11 вопросов без заполненных relevant_document_ids (в т.ч. все вопросы типа 'no_answer' — это ожидаемо):
+    - q06 (simple_fact): Как называется вид спорта на мётлах в мире волшебников?  <- ЗАПОЛНИ relevant_document_ids
+    - q16 (specific_info): Кто варил Оборотное зелье во 2 книге?  <- ЗАПОЛНИ relevant_document_ids
+    - q17 (specific_info): Какого цвета галстук у факультета Слизерин?  <- ЗАПОЛНИ relevant_document_ids
+    - q18 (specific_info): Кто был профессором Защиты от Тёмных искусств на 3 курсе Гарри?  <- ЗАПОЛНИ relevant_document_ids
+    - q23 (context_understanding): Почему Букля важна как символ на протяжении серии?  <- ЗАПОЛНИ relevant_document_ids
+
+============================================================
+paragraph / paraphrase-mpnet-base-v2
+============================================================
+Оценено вопросов: 19
+MRR: 0.1837
+  K=3   Recall@K=0.1579  Precision@K=0.0702
+  K=5   Recall@K=0.3158  Precision@K=0.0737
+  K=10  Recall@K=0.3684  Precision@K=0.0579
+  K=20  Recall@K=0.5789  Precision@K=0.0500
+
+Сохранено: ..\..\experiments\retrieval_comparison.csv
+
+
+--- Markdown-таблица (для отчёта) ---
+
+| strategy | model | n_questions | mrr | recall@3 | precision@3 | recall@5 | precision@5 | recall@10 | precision@10 | recall@20 | precision@20 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| fixed_size | e5-base | 19 | 0.5079 | 0.5789 | 0.3158 | 0.6842 | 0.2842 | 0.8947 | 0.2263 | 0.8947 | 0.1816 |
+| fixed_size_overlap | e5-base | 19 | 0.4923 | 0.5789 | 0.3158 | 0.7368 | 0.3053 | 0.7895 | 0.2632 | 0.8947 | 0.2026 |
+| paragraph | e5-base | 19 | 0.5924 | 0.6316 | 0.3684 | 0.7368 | 0.3263 | 0.9474 | 0.2895 | 0.9474 | 0.2079 |
+| fixed_size | paraphrase-mpnet-base-v2 | 19 | 0.1932 | 0.2632 | 0.1053 | 0.3158 | 0.0947 | 0.5263 | 0.0789 | 0.6316 | 0.0789 |
+| fixed_size_overlap | paraphrase-mpnet-base-v2 | 19 | 0.2142 | 0.2105 | 0.0702 | 0.4211 | 0.0947 | 0.5789 | 0.0947 | 0.5789 | 0.05 |
+| paragraph | paraphrase-mpnet-base-v2 | 19 | 0.1837 | 0.1579 | 0.0702 | 0.3158 | 0.0737 | 0.3684 | 0.0579 | 0.5789 | 0.05 |
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\evaluation>cd ../..
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git add .
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git commit -m "Add embeddings, retriever, reranker, evaluation pipeline with strategy/model comparison"
+[main 4b6a55c] Add embeddings, retriever, reranker, evaluation pipeline with strategy/model comparison
+ 11 files changed, 810 insertions(+)
+ create mode 100644 experiments/retrieval_comparison.csv
+ delete mode 100644 src/__init__.py
+ delete mode 100644 src/evaluation/__init__.py
+ create mode 100644 src/evaluation/eval_metrics.py
+ create mode 100644 src/evaluation/eval_questions.json
+ create mode 100644 src/evaluation/fill_ground_truth.py
+ create mode 100644 src/evaluation/run_all_experiments.py
+ delete mode 100644 src/reranking/__init__.py
+ create mode 100644 src/reranking/reranker.py
+ delete mode 100644 src/retrieval/__init__.py
+ create mode 100644 src/retrieval/retriever.py
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git push
+Enumerating objects: 19, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (14/14), 14.07 KiB | 2.34 MiB/s, done.
+Total 14 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Voland13915/PAD.git
+   2cbd392..4b6a55c  main -> main
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>dir experiments
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 708E-79F8
+
+ Содержимое папки C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\experiments
+
+19.09.2026  19:22    <DIR>          .
+19.09.2026  19:22    <DIR>          ..
+19.09.2026  19:22               697 retrieval_comparison.csv
+               1 файлов            697 байт
+               2 папок  19 832 348 672 байт свободно
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>cd src\reranking
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\reranking>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" eval_reranker.py --strategy paragraph --embed
+ding-model intfloat/multilingual-e5-base
+Загружаю модель intfloat/multilingual-e5-base...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 432.19it/s]
+Загружаю индекс paragraph__e5-base...
+Готово: 5104 векторов в индексе.
+
+Загружаю reranker cross-encoder/mmarco-mMiniLMv2-L12-H384-v1...
+Loading weights: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 201/201 [00:00<00:00, 1639.53it/s]
+
+
+>>> BASELINE: только retriever
+[!] Пропущено 11 вопросов без заполненных relevant_document_ids (в т.ч. все вопросы типа 'no_answer' — это ожидаемо):
+    - q06 (simple_fact): Как называется вид спорта на мётлах в мире волшебников?  <- ЗАПОЛНИ relevant_document_ids
+    - q16 (specific_info): Кто варил Оборотное зелье во 2 книге?  <- ЗАПОЛНИ relevant_document_ids
+    - q17 (specific_info): Какого цвета галстук у факультета Слизерин?  <- ЗАПОЛНИ relevant_document_ids
+    - q18 (specific_info): Кто был профессором Защиты от Тёмных искусств на 3 курсе Гарри?  <- ЗАПОЛНИ relevant_document_ids
+    - q23 (context_understanding): Почему Букля важна как символ на протяжении серии?  <- ЗАПОЛНИ relevant_document_ids
+
+============================================================
+Retriever-only (paragraph / intfloat/multilingual-e5-base)
+============================================================
+Оценено вопросов: 19
+MRR: 0.5924
+  K=3   Recall@K=0.6316  Precision@K=0.3684
+  K=5   Recall@K=0.7368  Precision@K=0.3263
+  K=10  Recall@K=0.9474  Precision@K=0.2895
+  K=20  Recall@K=0.9474  Precision@K=0.2079
+
+
+>>> С RERANKER'ом
+
+============================================================
+Retriever + Reranker (top-20 -> rerank)
+============================================================
+Оценено вопросов: 19
+MRR: 0.5256
+  K=3   Recall@K=0.6316  Precision@K=0.2982
+  K=5   Recall@K=0.6842  Precision@K=0.2632
+  K=10  Recall@K=0.8421  Precision@K=0.2368
+  K=20  Recall@K=0.9474  Precision@K=0.2079
+
+
+============================================================
+ИТОГ: изменение метрик после добавления reranker'а
+============================================================
+MRR: 0.5924 -> 0.5256 (delta -0.0667)
+K=3   Recall: 0.6316 -> 0.6316 (delta +0.0000)   Precision: 0.3684 -> 0.2982 (delta -0.0702)
+K=5   Recall: 0.7368 -> 0.6842 (delta -0.0526)   Precision: 0.3263 -> 0.2632 (delta -0.0632)
+K=10  Recall: 0.9474 -> 0.8421 (delta -0.1053)   Precision: 0.2895 -> 0.2368 (delta -0.0526)
+K=20  Recall: 0.9474 -> 0.9474 (delta +0.0000)   Precision: 0.2079 -> 0.2079 (delta +0.0000)
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\reranking>
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\reranking>
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\reranking>eval_reranker.py --strategy paragraph --embedding-model intfloat/multilingual-e5-base --reranker-model BAAI/bge-reran
+ker-base
+Traceback (most recent call last):
+  File "C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\reranking\eval_reranker.py", line 22, in <module>
+    import retriever as rt  # noqa: E402
+  File "C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\retrieval\retriever.py", line 20, in <module>
+    import embed_store as es  # noqa: E402
+  File "C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\embeddings\embed_store.py", line 25, in <module>
+    import faiss
+ModuleNotFoundError: No module named 'faiss'
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\reranking> eval_reranker.py --strategy paragraph --embedding-model intfloat/multilingual-e5-base --reranker-model BAAI/bge-rera
+nker-base
+Traceback (most recent call last):
+  File "C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\reranking\eval_reranker.py", line 22, in <module>
+    import retriever as rt  # noqa: E402
+  File "C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\retrieval\retriever.py", line 20, in <module>
+    import embed_store as es  # noqa: E402
+  File "C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\embeddings\embed_store.py", line 25, in <module>
+    import faiss
+ModuleNotFoundError: No module named 'faiss'
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\reranking>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" eval_reranker.py --strategy paragraph --embed
+ding-model intfloat/multilingual-e5-base --reranker-model BAAI/bge-reranker-base
+Загружаю модель intfloat/multilingual-e5-base...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 461.24it/s]
+Загружаю индекс paragraph__e5-base...
+Готово: 5104 векторов в индексе.
+
+Загружаю reranker BAAI/bge-reranker-base...
+config.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 799/799 [00:00<?, ?B/s]
+model.safetensors: downloading bytes: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.05GB, 17.5MB/s
+model.safetensors: reconstructing file: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.11GB / 1.11GB, 50.7MB/s
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 201/201 [00:00<00:00, 400.83it/s]
+tokenizer_config.json: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 443/443 [00:00<?, ?B/s]
+tokenizer.json: downloading bytes: ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5.88MB,  563kB/s
+tokenizer.json: reconstructing file: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17.1MB / 17.1MB, 1.65MB/s
+special_tokens_map.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 279/279 [00:00<?, ?B/s]
+
+
+>>> BASELINE: только retriever
+[!] Пропущено 11 вопросов без заполненных relevant_document_ids (в т.ч. все вопросы типа 'no_answer' — это ожидаемо):
+    - q06 (simple_fact): Как называется вид спорта на мётлах в мире волшебников?  <- ЗАПОЛНИ relevant_document_ids
+    - q16 (specific_info): Кто варил Оборотное зелье во 2 книге?  <- ЗАПОЛНИ relevant_document_ids
+    - q17 (specific_info): Какого цвета галстук у факультета Слизерин?  <- ЗАПОЛНИ relevant_document_ids
+    - q18 (specific_info): Кто был профессором Защиты от Тёмных искусств на 3 курсе Гарри?  <- ЗАПОЛНИ relevant_document_ids
+    - q23 (context_understanding): Почему Букля важна как символ на протяжении серии?  <- ЗАПОЛНИ relevant_document_ids
+
+============================================================
+Retriever-only (paragraph / intfloat/multilingual-e5-base)
+============================================================
+Оценено вопросов: 19
+MRR: 0.5924
+  K=3   Recall@K=0.6316  Precision@K=0.3684
+  K=5   Recall@K=0.7368  Precision@K=0.3263
+  K=10  Recall@K=0.9474  Precision@K=0.2895
+  K=20  Recall@K=0.9474  Precision@K=0.2079
+
+
+>>> С RERANKER'ом
+
+============================================================
+Retriever + Reranker (top-20 -> rerank)
+============================================================
+Оценено вопросов: 19
+MRR: 0.4401
+  K=3   Recall@K=0.4737  Precision@K=0.2632
+  K=5   Recall@K=0.5789  Precision@K=0.2421
+  K=10  Recall@K=0.8421  Precision@K=0.2211
+  K=20  Recall@K=0.9474  Precision@K=0.2079
+
+
+============================================================
+ИТОГ: изменение метрик после добавления reranker'а
+============================================================
+MRR: 0.5924 -> 0.4401 (delta -0.1523)
+K=3   Recall: 0.6316 -> 0.4737 (delta -0.1579)   Precision: 0.3684 -> 0.2632 (delta -0.1053)
+K=5   Recall: 0.7368 -> 0.5789 (delta -0.1579)   Precision: 0.3263 -> 0.2421 (delta -0.0842)
+K=10  Recall: 0.9474 -> 0.8421 (delta -0.1053)   Precision: 0.2895 -> 0.2211 (delta -0.0684)
+K=20  Recall: 0.9474 -> 0.9474 (delta +0.0000)   Precision: 0.2079 -> 0.2079 (delta +0.0000)
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\reranking>cd ../..
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git add .
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git commit -m "Experiments with rerankers"
+[main c015c5a] Experiments with rerankers
+ 1 file changed, 109 insertions(+)
+ create mode 100644 src/reranking/eval_reranker.py
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 2.18 KiB | 1.09 MiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Voland13915/PAD.git
+   4b6a55c..c015c5a  main -> main
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" eval_reranker.py --strategy paragraph --embedding-model int
+float/multilingual-e5-base > ..\..\experiments\reranker_comparison_mmarco.txt
+Системе не удается найти указанный путь.
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>cd src\reranking
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\reranking>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" eval_reranker.py --strategy paragraph --embed
+ding-model intfloat/multilingual-e5-base > ..\..\experiments\reranker_comparison_mmarco.txt
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 481.84it/s]
+Loading weights: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 201/201 [00:00<00:00, 1599.28it/s]
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\reranking>"C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\venv\Scripts\python.exe" eval_reranker.py --strategy paragraph --embed
+ding-model intfloat/multilingual-e5-base --reranker-model BAAI/bge-reranker-base > ..\..\experiments\reranker_comparison_bge.txt
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 613.17it/s]
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 201/201 [00:00<00:00, 365.75it/s]
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\reranking>git add .
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1\src\reranking>cd ../..
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git add .
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git commit -m "Quantitative retriever vs retriever+reranker comparison (mmarco, bge)"
+[main e60e739] Quantitative retriever vs retriever+reranker comparison (mmarco, bge)
+ 3 files changed, 101 insertions(+)
+ create mode 100644 .idea/encodings.xml
+ create mode 100644 experiments/reranker_comparison_bge.txt
+ create mode 100644 experiments/reranker_comparison_mmarco.txt
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.82 KiB | 931.00 KiB/s, done.
+Total 7 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+To https://github.com/Voland13915/PAD.git
+   c015c5a..e60e739  main -> main
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>ollama pull qwen2.5
+"ollama" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>dir "C:\Users\migov\AppData\Local\Programs\Ollama"
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 708E-79F8
+
+ Содержимое папки C:\Users\migov\AppData\Local\Programs\Ollama
+
+19.09.2026  20:38    <DIR>          .
+19.09.2026  20:38    <DIR>          ..
+17.09.2026  21:52             7 502 app.ico
+19.09.2026  20:38    <DIR>          lib
+17.09.2026  21:57        27 308 424 ollama app.exe
+17.09.2026  21:57        26 263 432 ollama.exe
+19.09.2026  20:38           348 573 unins000.dat
+19.09.2026  20:35         4 353 928 unins000.exe
+19.09.2026  20:38            25 316 unins000.msg
+               6 файлов     58 307 175 байт
+               3 папок  15 973 384 192 байт свободно
+
+(lab1) C:\Users\migov\OneDrive\Рабочий стол\PAD\lab1>
