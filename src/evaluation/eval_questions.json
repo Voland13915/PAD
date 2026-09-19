@@ -1,0 +1,272 @@
+{
+  "_readme": "30 тестовых вопросов для evaluation RAG-системы (п.15-16 задания). Поле relevant_document_ids — список document_id глав (формат hpN_chNN), где реально содержится ответ; используется для подсчёта Recall@K, Precision@K, MRR, Hit Rate. Там, где стоит null — нужно проверить через retriever.py (интерактивный режим) и заполнить вручную; для вопросов типа 'no_answer' relevant_document_ids всегда [] — это намеренно (проверка защиты от галлюцинаций).",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "simple_fact",
+      "question": "Кто убил Дамблдора?",
+      "expected_answer": "Северус Снегг (Снейп)",
+      "relevant_document_ids": [
+        "hp6_ch27"
+      ]
+    },
+    {
+      "id": "q02",
+      "type": "simple_fact",
+      "question": "Кто создал философский камень?",
+      "expected_answer": "Николас Фламель",
+      "relevant_document_ids": [
+        "hp1_ch13"
+      ]
+    },
+    {
+      "id": "q03",
+      "type": "simple_fact",
+      "question": "На каком факультете учился Гарри Поттер?",
+      "expected_answer": "Гриффиндор",
+      "relevant_document_ids": [
+        "hp1_ch07"
+      ]
+    },
+    {
+      "id": "q04",
+      "type": "simple_fact",
+      "question": "Как называется банк волшебников в Косом переулке?",
+      "expected_answer": "Гринготтс",
+      "relevant_document_ids": [
+        "hp1_ch05",
+        "hp1_ch05"
+      ]
+    },
+    {
+      "id": "q05",
+      "type": "simple_fact",
+      "question": "Кто такой Полумна Лавгуд?",
+      "expected_answer": "Однокурсница Гарри с факультета Когтевран",
+      "relevant_document_ids": [
+        "hp5_ch10",
+        "hp5_ch10"
+      ]
+    },
+    {
+      "id": "q06",
+      "type": "simple_fact",
+      "question": "Как называется вид спорта на мётлах в мире волшебников?",
+      "expected_answer": "Квиддич",
+      "relevant_document_ids": null
+    },
+    {
+      "id": "q07",
+      "type": "multi_document",
+      "question": "Как менялись отношения Гарри и Снегга на протяжении всех семи книг?",
+      "expected_answer": "От неприязни и недоверия к пониманию истинной роли Снегга (защитника Гарри) после Даров Смерти",
+      "relevant_document_ids": [
+        "hp1_ch13",
+        "hp6_ch28",
+        "hp7_ch32"
+      ]
+    },
+    {
+      "id": "q08",
+      "type": "multi_document",
+      "question": "Как раскрывается история крестражей на протяжении серии?",
+      "expected_answer": "Постепенно, начиная с дневника Реддла во 2 книге и заканчивая полным списком и уничтожением в 6-7 книгах",
+      "relevant_document_ids": [
+        "hp6_ch23",
+        "hp7_ch06"
+      ]
+    },
+    {
+      "id": "q09",
+      "type": "multi_document",
+      "question": "Как менялась роль Сириуса Блэка в жизни Гарри от 3 к 5 книге?",
+      "expected_answer": "От опасного беглеца и подозреваемого предателя к крёстному отцу и близкому человеку, погибшему в Ордене Феникса",
+      "relevant_document_ids": [
+        "hp5_ch05",
+        "hp3_ch18"
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multi_document",
+      "question": "Какие события связывают Тайную комнату (2 книга) и финал серии?",
+      "expected_answer": "Дневник Реддла как крестраж, василиск и клык василиска, использованный позже для уничтожения других крестражей",
+      "relevant_document_ids": [
+        "hp2_ch16",
+        "hp2_ch13",
+        "hp6_ch23"
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multi_document",
+      "question": "Как менялось отношение волшебного сообщества к Гарри как к 'Избранному' по ходу серии?",
+      "expected_answer": "От восхищения и любопытства к недоверию (5 книга) и снова к признанию героя",
+      "relevant_document_ids": [
+        "hp6_ch16",
+        "hp2_ch04"
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multi_document",
+      "question": "Какую роль сыграла Выручай-комната в разных книгах серии?",
+      "expected_answer": "Место тренировок Отряда Дамблдора (5 книга), тайник крестража и место финальной битвы с Адским пламенем (7 книга)",
+      "relevant_document_ids": [
+        "hp6_ch21",
+        "hp5_ch18",
+        "hp7_ch30",
+        "hp7_ch29"
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "specific_info",
+      "question": "Какое заклинание убивает?",
+      "expected_answer": "Авада Кедавра",
+      "relevant_document_ids": [
+        "hp4_ch37"
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "specific_info",
+      "question": "Как зовут домашнего эльфа, который предупреждал Гарри об опасности перед 2 курсом?",
+      "expected_answer": "Добби",
+      "relevant_document_ids": [
+        "hp2_ch02"
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "specific_info",
+      "question": "Из чего сделана волшебная палочка Гарри Поттера?",
+      "expected_answer": "Остролист с пером феникса",
+      "relevant_document_ids": [
+        "hp1_ch05",
+        "hp4_ch18"
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "specific_info",
+      "question": "Кто варил Оборотное зелье во 2 книге?",
+      "expected_answer": "Гермиона (для Гарри и Рона)",
+      "relevant_document_ids": null
+    },
+    {
+      "id": "q17",
+      "type": "specific_info",
+      "question": "Какого цвета галстук у факультета Слизерин?",
+      "expected_answer": "Зелёный с серебром",
+      "relevant_document_ids": null
+    },
+    {
+      "id": "q18",
+      "type": "specific_info",
+      "question": "Кто был профессором Защиты от Тёмных искусств на 3 курсе Гарри?",
+      "expected_answer": "Римус Люпин",
+      "relevant_document_ids": null
+    },
+    {
+      "id": "q19",
+      "type": "context_understanding",
+      "question": "Почему Дамблдор доверял Снеггу, несмотря на его прошлое Пожирателя смерти?",
+      "expected_answer": "Требует понимания контекста — Снегг действовал как двойной агент из любви к Лили Поттер",
+      "relevant_document_ids": [
+        "hp6_ch02",
+        "hp6_ch29"
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "context_understanding",
+      "question": "Почему Волан-де-Морт не мог прикоснуться к Гарри в первой книге?",
+      "expected_answer": "Защита, оставленная жертвой матери Гарри (древняя магия любви)",
+      "relevant_document_ids": [
+        "hp5_ch37",
+        "hp5_ch37"
+      ]
+    },
+    {
+      "id": "q21",
+      "type": "context_understanding",
+      "question": "Почему пророчество о Гарри и Волан-де-Морте могло относиться и к Невиллу Лонгботтому?",
+      "expected_answer": "Оба родились в конце июля у родителей, трижды бросавших вызов Волан-де-Морту; Волан-де-Морт сам выбрал Гарри целью",
+      "relevant_document_ids": [
+        "hp5_ch37",
+        "hp6_ch23",
+        "hp6_ch23"
+      ]
+    },
+    {
+      "id": "q22",
+      "type": "context_understanding",
+      "question": "Почему Гарри смог выжить после удара Авада Кедавра от Волан-де-Морта в финале?",
+      "expected_answer": "Требует понимания концепции крестражей и того, что Гарри невольно стал одним из них",
+      "relevant_document_ids": [
+        "hp7_ch34",
+        "hp7_ch36"
+      ]
+    },
+    {
+      "id": "q23",
+      "type": "context_understanding",
+      "question": "Почему Букля важна как символ на протяжении серии?",
+      "expected_answer": "Её гибель в 7 книге символизирует потерю Гарри последней связи с прежней, более безопасной жизнью",
+      "relevant_document_ids": null
+    },
+    {
+      "id": "q24",
+      "type": "context_understanding",
+      "question": "Почему Дары Смерти важны для финального противостояния с Волан-де-Мортом?",
+      "expected_answer": "Требует понимания легенды о трёх Дарах и того, как Гарри становится их истинным хозяином",
+      "relevant_document_ids": [
+        "hp7_ch35",
+        "hp7_ch34"
+      ]
+    },
+    {
+      "id": "q25",
+      "type": "no_answer",
+      "question": "Какая начальная зарплата у профессора Хогвартса в галлеонах?",
+      "expected_answer": "В книгах эта информация не указана",
+      "relevant_document_ids": []
+    },
+    {
+      "id": "q26",
+      "type": "no_answer",
+      "question": "Сколько лет было Минерве МакГонагалл, когда она поступила в Хогвартс?",
+      "expected_answer": "В книгах эта информация не указана",
+      "relevant_document_ids": []
+    },
+    {
+      "id": "q27",
+      "type": "no_answer",
+      "question": "Какая столица волшебной Франции упоминается в книгах?",
+      "expected_answer": "В книгах эта информация не указана (Шармбатон упоминается, но не его точное местоположение/столица)",
+      "relevant_document_ids": []
+    },
+    {
+      "id": "q28",
+      "type": "no_answer",
+      "question": "Какой любимый цвет у Полумны Лавгуд?",
+      "expected_answer": "В книгах эта информация не указана",
+      "relevant_document_ids": []
+    },
+    {
+      "id": "q29",
+      "type": "no_answer",
+      "question": "Сколько всего учеников обучается в Хогвартсе одновременно?",
+      "expected_answer": "Точное число в книгах не указано",
+      "relevant_document_ids": []
+    },
+    {
+      "id": "q30",
+      "type": "no_answer",
+      "question": "Какая температура была в день финального сражения за Хогвартс?",
+      "expected_answer": "В книгах эта информация не указана",
+      "relevant_document_ids": []
+    }
+  ]
+}
