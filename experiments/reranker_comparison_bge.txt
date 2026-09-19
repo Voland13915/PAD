@@ -1,0 +1,47 @@
+Загружаю модель intfloat/multilingual-e5-base...
+Загружаю индекс paragraph__e5-base...
+Готово: 5104 векторов в индексе.
+
+Загружаю reranker BAAI/bge-reranker-base...
+
+
+>>> BASELINE: только retriever
+[!] Пропущено 11 вопросов без заполненных relevant_document_ids (в т.ч. все вопросы типа 'no_answer' — это ожидаемо):
+    - q06 (simple_fact): Как называется вид спорта на мётлах в мире волшебников?  <- ЗАПОЛНИ relevant_document_ids
+    - q16 (specific_info): Кто варил Оборотное зелье во 2 книге?  <- ЗАПОЛНИ relevant_document_ids
+    - q17 (specific_info): Какого цвета галстук у факультета Слизерин?  <- ЗАПОЛНИ relevant_document_ids
+    - q18 (specific_info): Кто был профессором Защиты от Тёмных искусств на 3 курсе Гарри?  <- ЗАПОЛНИ relevant_document_ids
+    - q23 (context_understanding): Почему Букля важна как символ на протяжении серии?  <- ЗАПОЛНИ relevant_document_ids
+
+============================================================
+Retriever-only (paragraph / intfloat/multilingual-e5-base)
+============================================================
+Оценено вопросов: 19
+MRR: 0.5924
+  K=3   Recall@K=0.6316  Precision@K=0.3684
+  K=5   Recall@K=0.7368  Precision@K=0.3263
+  K=10  Recall@K=0.9474  Precision@K=0.2895
+  K=20  Recall@K=0.9474  Precision@K=0.2079
+
+
+>>> С RERANKER'ом
+
+============================================================
+Retriever + Reranker (top-20 -> rerank)
+============================================================
+Оценено вопросов: 19
+MRR: 0.4401
+  K=3   Recall@K=0.4737  Precision@K=0.2632
+  K=5   Recall@K=0.5789  Precision@K=0.2421
+  K=10  Recall@K=0.8421  Precision@K=0.2211
+  K=20  Recall@K=0.9474  Precision@K=0.2079
+
+
+============================================================
+ИТОГ: изменение метрик после добавления reranker'а
+============================================================
+MRR: 0.5924 -> 0.4401 (delta -0.1523)
+K=3   Recall: 0.6316 -> 0.4737 (delta -0.1579)   Precision: 0.3684 -> 0.2632 (delta -0.1053)
+K=5   Recall: 0.7368 -> 0.5789 (delta -0.1579)   Precision: 0.3263 -> 0.2421 (delta -0.0842)
+K=10  Recall: 0.9474 -> 0.8421 (delta -0.1053)   Precision: 0.2895 -> 0.2211 (delta -0.0684)
+K=20  Recall: 0.9474 -> 0.9474 (delta +0.0000)   Precision: 0.2079 -> 0.2079 (delta +0.0000)
