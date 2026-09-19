@@ -4,3 +4,4 @@ data/processed/*.json
 data/processed/_manifest.json
 __pycache__/
 *.pyc
+data/processed/chunks_*.json
