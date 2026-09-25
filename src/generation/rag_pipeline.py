@@ -11,6 +11,7 @@ rag_pipeline.py
 
 import argparse
 import sys
+import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "retrieval"))
@@ -21,6 +22,7 @@ import retriever as rt  # noqa: E402
 import reranker as rr  # noqa: E402
 import filtering as ft  # noqa: E402
 import generator as gen  # noqa: E402
+import query_logger as ql  # noqa: E402
 
 
 class RAGPipeline:
@@ -53,17 +55,39 @@ class RAGPipeline:
         )
 
     def answer(self, question: str) -> dict:
-        candidates = self.retriever.search(question, top_k=self.retrieve_k)
+        start_time = time.time()
+        error_message = None
+        result = {}
+        try:
+            candidates = self.retriever.search(question, top_k=self.retrieve_k)
 
-        if self.use_reranker:
-            candidates = self.reranker.rerank(question, candidates, top_n=len(candidates))
+            if self.use_reranker:
+                candidates = self.reranker.rerank(question, candidates, top_n=len(candidates))
 
-        filtered = ft.apply_filters(candidates, self.filter_config)
+            filtered = ft.apply_filters(candidates, self.filter_config)
 
-        result = gen.generate_answer(question, filtered, model=self.llm_model, temperature=self.temperature)
-        result["n_candidates_retrieved"] = len(candidates)
-        result["n_chunks_used"] = len(filtered)
-        return result
+            result = gen.generate_answer(question, filtered, model=self.llm_model, temperature=self.temperature)
+            result["n_candidates_retrieved"] = len(candidates)
+            result["n_chunks_used"] = len(filtered)
+            return result
+        except Exception as e:
+            error_message = str(e)
+            raise
+        finally:
+            ql.log_query(
+                question=question,
+                strategy=self.retriever.strategy,
+                embedding_model=self.retriever.model_name,
+                llm_model=self.llm_model,
+                temperature=self.temperature,
+                use_reranker=self.use_reranker,
+                n_candidates_retrieved=result.get("n_candidates_retrieved", 0),
+                n_chunks_used=result.get("n_chunks_used", 0),
+                answer=result.get("answer", ""),
+                sources=result.get("sources", []),
+                duration_seconds=time.time() - start_time,
+                error=error_message,
+            )
 
 
 def print_answer(result: dict) -> None:
